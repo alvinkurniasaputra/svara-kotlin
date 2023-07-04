@@ -1,0 +1,1023 @@
+<resources>
+    <string name="app_name">SVARA</string>
+    <string name="facebook_app_id">221190024918319</string>
+    <string name="fb_login_protocol_scheme">fb221190024918319</string>
+    <string name="server_client_id">341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com</string>
+    <string name="patch_version">0.0.1</string>
+
+    <string name="notify_channel_id" translatable="false">svara.channel.id</string>
+    <string name="notify_channel_name" translatable="false">@string/app_name</string>
+    <string name="notify_channel_description" translatable="false">Svara information</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="toast_logout">Logged Out</string>
+
+    <!--AdMob-->
+    <string name="ad_mob_id">ca-app-pub-7947634504633481~4248643416</string>
+    <string name="ad_mob_unit_curation">ca-app-pub-7947634504633481/9775290501</string>
+    <string name="ad_mob_unit_player">ca-app-pub-7947634504633481/1560692909</string>
+    <string name="ad_mob_unit_player_radio">ca-app-pub-7947634504633481/3967310495</string>
+    <string name="ad_mob_unit_queue">ca-app-pub-7947634504633481/5719429769</string>
+    <string name="ad_mob_unit_library">ca-app-pub-7947634504633481/1644399487</string>
+    <string name="ad_mob_unit_radio_page">ca-app-pub-7947634504633481/5855107237</string>
+    <!--test-->
+    <!--<string name="ad_mob_unit_curation">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!-- General Error -->
+    <string name="network_failure">Failed to connect to server</string>
+
+    <!-- Activity Login -->
+    <string name="activity_login_login">Login</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="activity_login_email">Email / Username</string>
+    <string name="activity_login_password">Password</string>
+
+    <!--signup-->
+    <string name="signup_firstname">First Name</string>
+    <string name="signup_lastname">Last Name</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_password">Password</string>
+    <string name="signup_username">Choose Username</string>
+    <string name="signup_birthday">Birthday</string>
+    <string name="signup">Sign Up</string>
+
+    <!--Phone Auth-->
+    <string name="fragment_phone_title">Enter your phone number</string>
+    <string name="fragment_phone_login_phone">Phone Number</string>
+    <string name="fragment_phone_next">Next</string>
+
+    <!--Phone Auth Verify-->
+    <string name="fragment_phone_verify_title">Enter your code</string>
+    <string name="fragment_phone_code">Code</string>
+    <string name="fragment_phone_continue">Continue</string>
+
+    <!-- UserPlaylistFragment -->
+    <string name="fragment_playlist_title">PLAYLIST</string>
+
+    <!--SingleFeedFragment-->
+    <string name="fragment_single_feed_title">FEED</string>
+
+    <!-- fragment discover -->
+    <string name="fragment_discover_title">DISCOVER</string>
+    <string name="fragment_discover_society">SOCIETY</string>
+    <string name="fragment_discover_music">MUSIC</string>
+    <string name="fragment_discover_album">ALBUM</string>
+    <string name="fragment_discover_playlist">PLAYLIST</string>
+
+    <!-- fragment hits -->
+    <string name="fragment_hits_title">MUSIC</string>
+    <string name="fragment_hits_new_release">New Release</string>
+    <string name="fragment_hits_album">Album</string>
+    <string name="fragment_hits_song">Song</string>
+    <string name="fragment_hits_new_playlist">HOT PLAYLIST</string>
+    <string name="fragment_hits_featured_ceo_playlist">Featured CEO Playlist</string>
+    <string name="fragment_hits_genere">GENRE</string>
+    <string name="your_favorites">Your Favorites</string>
+
+    <!-- fragment curation-->
+    <string name="fragment_curation_see_all">see more</string>
+
+    <!-- fragment radio -->
+    <string name="fragment_radio_title">RADIO</string>
+    <string name="fragment_radio_on_air">ON AIR</string>
+    <string name="fragment_radio_local">LOCAL</string>
+    <string name="fragment_radio_featured_channel">FEATURED CHANNEL</string>
+    <string name="fragment_radio_strip">-</string>
+
+    <!-- fragment library -->
+    <string name="fragment_library_title">LIBRARY</string>
+    <string name="fragment_library_music">MUSIC</string>
+    <string name="fragment_library_artist">ARTIST</string>
+    <string name="fragment_library_album">ALBUM</string>
+    <string name="fragment_library_genre">GENRE</string>
+    <string name="fragment_library_playlist">PLAYLIST </string>
+    <string name="fragment_library_radio">RADIO</string>
+    <string name="fragment_library_radio_content">RADIO CONTENT</string>
+    <string name="fragment_library_upload">UPLOAD</string>
+    <string name="fragment_library_podcast">PODCAST</string>
+    <string name="fragment_library_series">SERIES</string>
+    <string name="fragment_library_program">PROGRAM</string>
+    <string name="fragment_library_video">VIDEO</string>
+    <string name="fragment_library_search">SEARCH</string>
+    <string name="fragment_library_private_doc">Private Doc</string>
+    <string name="fragment_library_new_playlist">Create New</string>
+
+    <!-- fragment upload -->
+    <string name="fragment_upload_title">UPLOAD</string>
+    <string name="fragment_upload_uploading">Uploading song and album. Please wait.</string>
+    <string name="fragment_upload_choose_song">Choose Podcast</string>
+    <string name="fragment_upload_change_song">Change Podcast</string>
+    <string name="fragment_upload_choose_your_podcast">Choose your Podcast</string>
+    <string name="fragment_upload_choose_picture">Choose</string>
+    <string name="fragment_upload_title_hint">Type your title</string>
+    <string name="fragment_upload_caption_hint">Type your caption</string>
+    <string name="fragment_upload_error_image">Failed to upload picture</string>
+    <string name="fragment_upload_error_audio">Failed to upload audio</string>
+    <string name="fragment_upload_error_upload">Failed to post this upload</string>
+    <string name="fragment_upload_success">Successfully created upload</string>
+    <string name="fragment_upload_public">Public</string>
+    <string name="fragment_upload_private">Private</string>
+    <string name="fragment_upload_share">Share</string>
+    <string name="fragment_upload_facebook">Facebook</string>
+    <string name="fragment_upload_twitter">Twitter</string>
+    <string name="fragment_upload_path">Path</string>
+    <string name="fragment_upload_google_plus">Google+</string>
+    <string name="fragment_upload_others">Others</string>
+
+    <!-- fragment user profile -->
+    <string name="fragment_user_profile_timeline">Timeline</string>
+    <string name="fragment_user_profile_playlist">Playlist</string>
+    <string name="fragment_user_profile_article">Article</string>
+    <string name="fragment_user_profile_history">History</string>
+    <string name="fragment_user_profile_upload">Uploads</string>
+    <string name="fragment_user_profile_document">Document</string>
+    <string name="fragment_user_profile_message">Message</string>
+    <string name="fragment_user_profile_follow">  Follow  </string>
+    <string name="fragment_user_profile_unfollow">Unfollow</string>
+    <string name="fragment_user_profile_setting">Edit Profile</string>
+    <string name="fragment_user_profile_followings">Following\n%1$s</string>
+    <string name="fragment_user_profile_followers">Followers\n%1$s</string>
+    <string name="fragment_user_profile_update_cover_success">Successfully update cover picture</string>
+    <string name="fragment_user_profile_update_cover_failed">Failed to update cover picture</string>
+    <string name="fragment_user_profile_option_view_cover">View cover picture</string>
+    <string name="fragment_user_profile_option_change_cover">Change cover picture</string>
+    <string name="fragment_user_profile_option_reset_cover">Reset cover picture</string>
+    <string name="fragment_user_profile_reset_cover_success">Successfully reset cover picture</string>
+    <string name="fragment_user_profile_reset_cover_failed">Failed to update cover picture</string>
+
+    <!-- fragment radio profile -->
+    <string name="fragment_radio_profile_on_air">ON AIR</string>
+    <string name="fragment_radio_profile_phone">PHONE</string>
+    <string name="fragment_radio_profile_fax">FAX</string>
+    <string name="fragment_radio_profile_website">WEBSITE</string>
+    <string name="fragment_radio_profile_youtube">YOUTUBE</string>
+    <string name="fragment_radio_profile_facebook">FACEBOOK</string>
+    <string name="fragment_radio_profile_instagram">INSTAGRAM</string>
+    <string name="fragment_radio_profile_twitter">TWITTER</string>
+    <string name="fragment_radio_profile_shows">SHOWS</string>
+    <string name="fragment_radio_profile_featured_host">FEATURED HOST</string>
+    <string name="fragment_radio_profile_contents">ALL PODCAST</string>
+    <string name="fragment_radio_profile_no_information">No information available</string>
+    <string name="fragment_radio_profile_get_in_touch">GET IN TOUCH WITH US ON</string>
+
+
+    <!-- fragment social -->
+    <string name="fragment_social_title">SOCIAL</string>
+    <string name="fragment_social_create_new_post">Create New Post</string>
+
+    <!-- social adapter -->
+    <string name="adapter_social_music">Music</string>
+    <string name="adapter_social_artist">Artist</string>
+    <string name="adapter_social_album">Album</string>
+    <string name="adapter_social_playlist">Playlist</string>
+    <string name="adapter_social_radio">Radio</string>
+    <string name="adapter_social_radio_content">Radio Content</string>
+    <string name="adapter_social_upload">Upload</string>
+
+    <!-- PostFragment -->
+    <string name="fragment_post_title">POST</string>
+    <string name="fragment_post_author"><![CDATA[by <font color="#41ABDE">Text</font>]]></string>
+    <string name="fragment_post_add_song">Add Content</string>
+    <string name="fragment_post_caption_hint">Type your caption</string>
+    <string name="fragment_post_public">Public</string>
+    <string name="fragment_post_follower">Follower</string>
+    <string name="fragment_post_private">Private</string>
+    <string name="fragment_post_share">SHARE</string>
+    <string name="fragment_post_facebook">Facebook</string>
+    <string name="fragment_post_twitter">Twitter</string>
+    <string name="fragment_post_path">Path</string>
+    <string name="fragment_post_google_plus">Google+</string>
+    <string name="fragment_post_others">Others</string>
+
+
+    <!-- Activities Fragment -->
+    <string name="fragment_notification_title">ACTIVITIES</string>
+    <string name="fragment_activities_title">NOTIFICATION</string>
+    <string name="fragment_activities_reply">Reply</string>
+    <string name="fragment_direct_message">MESSAGE</string>
+
+    <!-- Fragment Like -->
+    <string name="fragment_likes_title">LIKES</string>
+
+    <!--Fragment NewComment-->
+    <string name="fragment_comment_title">COMMENTS</string>
+    <string name="fragment_comment_add_hint">Enter your comment here</string>
+    <string name="fragment_edit_comment_hint">Enter new comment or press x to cancel</string>
+
+    <!-- fragment search all result -->
+    <string name="fragment_search_result_title">SEARCH</string>
+    <string name="fragment_search_history_title">HISTORY</string>
+    <string name="fragment_search_result_music">Tracks</string>
+    <string name="fragment_search_result_artist">Artist</string>
+    <string name="fragment_search_result_playlist">Playlist</string>
+    <string name="fragment_search_result_album">Album</string>
+    <string name="fragment_search_result_radio">Radio</string>
+    <string name="fragment_search_result_account">Account</string>
+    <string name="fragment_search_result_uploaded">Uploaded</string>
+
+    <!-- fragment single category search result -->
+    <string name="fragment_single_category_search_result_music">TRACKS</string>
+    <string name="fragment_single_category_search_result_artist">ARTIST</string>
+    <string name="fragment_single_category_search_result_album">ALBUM</string>
+    <string name="fragment_single_category_search_result_radio">RADIO</string>
+    <string name="fragment_single_category_search_result_account">ACCOUNT</string>
+    <string name="fragment_single_category_search_result_uploaded">UPLOADED</string>
+
+    <!-- fragment more curation -->
+    <string name="fragment_more_curation_title">MORE</string>
+
+    <!-- Model Playlist -->
+    <string name="model_playlist_created_by">Playlist by: %s</string>
+    <string name="model_playlist_tracks_number">Tracks: %d</string>
+
+    <!-- Fragment Followers -->
+    <string name="fragment_followers_follow">Follow</string>
+    <string name="fragment_followers_following">Following</string>
+    <string name="fragment_followers_followed">Followed</string>
+
+    <!-- Grid one line & two line -->
+    <string name="grid_one_line_follow">Follow</string>
+    <string name="grid_one_line_unfollow">Unfollow</string>
+    <string name="grid_one_line_view">View</string>
+
+    <!-- Navigation view -->
+    <string name="navigation_menu_activities">Activities</string>
+    <string name="navigation_menu_membership">Membersip</string>
+    <string name="navigation_menu_settings">Settings</string>
+    <string name="navigation_menu_preference">Preference</string>
+    <string name="navigation_menu_theme">Themes</string>
+    <string name="navigation_menu_feedback">Beta Feedback</string>
+    <string name="navigation_menu_logout">Log Out</string>
+    <string name="navigation_menu_play">Last Played</string>
+    <string name="navigation_menu_playall">Play Now</string>
+    <string name="navigation_menu_login">Login</string>
+
+    <!-- fragment new playlist -->
+    <string name="fragment_new_playlist_title_hint">Write Playlist Title</string>
+    <string name="fragment_new_playlist_tracks">%1$s tracks</string>
+    <string name="fragment_new_playlist_add_songs">Add Music</string>
+    <string name="fragment_new_playlist_title">PLAYLIST</string>
+    <string name="fragment_new_playlist_change_picture">Change</string>
+    <string name="fragment_new_playlist_success">Success add playlist %1$s</string>
+
+    <!--fragment series-->
+    <string name="fragment_new_series_add_podcast">Add Podcast</string>
+    <string name="fragment_new_series_new_podcast">New Podcast</string>
+    <string name="fragment_series_play_all">Play All</string>
+
+    <!-- fragment new playlist more content -->
+    <string name="fragment_new_playlist_add_songs_title">ADD SONGS</string>
+    <string name="fragment_new_playlist_search">Search</string>
+
+    <!-- fragment edit artist -->
+    <string name="fragment_edit_artist_title">Edit Artist</string>
+
+    <!-- fragment artist -->
+    <string name="fragment_artist_btn_artist">Artist</string>
+    <string name="fragment_artist_top_tracks">Top Tracks</string>
+    <string name="fragment_artist_album">Albums</string>
+    <string name="fragment_artist_similar_artist">Similar Artist</string>
+
+    <!-- fragment artists -->
+    <string name="fragment_artist2_title">ARTIST</string>
+    <string name="fragment_artist2_track">TRACKS</string>
+    <string name="fragment_artist2_albums">ALBUMS</string>
+    <string name="fragment_artist2_button">SHUFFLE PLAY</string>
+    <string name="fragment_artist2_similarArtist">SIMILAR ARTIST</string>
+
+    <!-- fragment edit music -->
+    <string name="fragment_edit_music_title">Edit Music</string>
+
+    <!-- fragment edit album -->
+    <string name="fragment_edit_album_title">Edit Album</string>
+
+    <!-- fragment album -->
+    <string name="fragment_album_title">ALBUM</string>
+    <string name="fragment_album_similar_album">SIMILAR ALBUM</string>
+
+    <!-- membership -->
+    <string name="fragment_membership_title">MEMBERSHIP</string>
+    <string name="fragment_membership_upgrade">Upgrade to Platinum</string>
+    <string name="fragment_membership_upgrade_subtitle">And you will get these exclusive benefits:</string>
+    <string name="fragment_membership_payment">It\'s easy, cause we accept many payment method!</string>
+    <string name="fragment_membership_payment_phone_voucher">Phone Voucher</string>
+    <string name="fragment_membership_payment_bank_transfer">Bank Transfer</string>
+    <string name="fragment_membership_payment_credit_card">Credit Card</string>
+    <string name="fragment_membership_btn_upgrade">Upgrade to Platinum</string>
+
+    <!-- favorites upload adapter-->
+    <string name="adapter_favorites_upload_name">%1$s %2$s</string>
+
+    <!--Action Dialog chat-->
+    <string name="dialog_delete_chat">Delete Message</string>
+    <string name="dialog_pinned_chat">Pin Message</string>
+
+    <!--Action Dialog Pinned message-->
+    <string name="dialog_remove_pinned_message">Unpin Message</string>
+
+    <!--Action Dialog create new Post-->
+    <string name="dialog_upload_content">Upload your own content</string>
+    <string name="dialog_search_from_library">Search from library</string>
+
+    <!--Action Dialog share post-->
+    <string name="dialog_create_post_from_feed">Create new post from this feed</string>
+    <string name="dialog_share_post_to_other_app">Share to other app</string>
+
+    <!-- Action Dialog Music -->
+    <string name="dialog_add_to_library">Add to Library</string>
+    <string name="dialog_remove_from_library">Remove from Library</string>
+    <string name="dialog_subscribe">Stay Tune</string>
+    <string name="dialog_unsubscribe">Tune Out</string>
+    <string name="dialog_add_to_next">Add to Up Next</string>
+    <string name="dialog_add_to_playlist">Add to Playlist</string>
+    <string name="dialog_edit_music">Edit Music</string>
+    <string name="dialog_go_to_album">Go to Album</string>
+    <string name="dialog_go_to_artist">Go to Artist</string>
+    <string name="dialog_go_to_radio">Go to Radio</string>
+    <string name="dialog_post_to_timeline">Post</string>
+    <string name="dialog_share">Share</string>
+    <string name="dialog_go_to_profile">Go to Profile</string>
+    <string name="dialog_go_to_account">Go to User Account</string>
+    <string name="dialog_follow">Follow</string>
+    <string name="dialog_unfollow">Unfollow</string>
+    <string name="dialog_streaming">Play Streaming</string>
+    <string name="dialog_download">Download</string>
+    <string name="dialog_shuffle_play">Shuffle Play</string>
+    <string name="dialog_success_follow_user">%1$s %2$s followed</string>
+    <string name="dialog_success_unfollow_user">%1$s %2$s unfollowed</string>
+    <string name="dialog_success_leave_private_room">Leave private room success</string>
+    <string name="dialog_success_favorite">%1$s added to library</string>
+    <string name="dialog_success_remove_favorite">%1$s removed from library</string>
+    <string name="dialog_success_subscribe">%1$s successfully stay tuned</string>
+    <string name="dialog_success_unsubscribe">%1$s successfully tune out</string>
+    <string name="dialog_add_to_radio">Add to Radio</string>
+    <string name="dialog_remove_from_radio">Remove from Radio</string>
+
+    <string name="invalid_location">The content cannot be played.</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="unknown_album">Unknown Album</string>
+    <string name="unknown_genre">Unknown Genre</string>
+    <string name="widget_default_text" translatable="false">Svara mini player</string>
+    <string name="widget_name_w">Svara White Widget</string>
+    <string name="widget_name_b">Svara Dark Widget</string>
+
+    <string name="firstsong">First content of queue</string>
+    <string name="lastsong">Last content of queue</string>
+
+    <!--Setting-->
+    <string name="fragment_setting_title">Settings</string>
+    <string name="setting_title_playback">PLAYBACK</string>
+    <string name="setting_sub_crosfade">Crossfade</string>
+    <string name="setting_text_crosfade">Allow you to crossfade between songs</string>
+    <string name="setting_sub_show_unplayable_songs">Show Unplayable Songs</string>
+    <string name="setting_text_show_unplayable_songs">Show songs that are unplayable</string>
+    <string name="setting_sub_normalize_volume">Normalize Volume</string>
+    <string name="setting_text_normalize_volume">Set the same volume level for all track</string>
+    <string name="setting_title_devices">DEVICES</string>
+    <string name="setting_sub_connect_devices">Connect to a devices</string>
+    <string name="setting_text_connect_devices">Listen and connect svara to your device</string>
+    <string name="setting_title_social">SOCIAL</string>
+    <string name="setting_title_free_user">FREE USER</string>
+    <string name="setting_sub_free_user">Pop Up</string>
+    <string name="setting_text_free_user">Always show popup when playing premium content (free user only)</string>
+    <string name="setting_title_auto_play">PLAYER</string>
+    <string name="setting_sub_auto_play">Auto Play</string>
+    <string name="setting_text_auto_play">Enable auto play when opening app.</string>
+    <string name="setting_sub_private_session">Private Session</string>
+    <string name="setting_text_private_session">Choose a Private Session if you don’t want to share what you’re listening to. Each session lasts until you’ve been inactive for 6 hour</string>
+    <string name="setting_title_music_quality">MUSIC QUALITY</string>
+    <string name="setting_sub_streaming">Streaming</string>
+    <string name="setting_text_streaming">Higher quality uses more data.</string>
+    <string name="setting_ops_quality_automatic">Automatic Quality</string>
+    <string name="setting_ops_quality_low">Low Quality</string>
+    <string name="setting_ops_quality_medium">Medium Quality</string>
+    <string name="setting_ops_quality_hight">High Quality</string>
+    <string name="setting_title_notification">NOTIFICATION</string>
+    <string name="setting_sub_notification">Notification</string>
+    <string name="setting_text_notification">Choose which notificatons to receive</string>
+    <string name="setting_text_loggin_as">You are logged in as</string>
+    <string name="setting_title_layout">LAYOUT</string>
+    <string name="setting_sub_layout">Layout</string>
+    <string name="setting_text_layout">Choose your primary layout</string>
+
+    <string name="fragment_usersetting_title">SETTINGS</string>
+    <string name="fragment_usersetting_userprofile">USER PROFILE</string>
+    <string name="fragment_usersetting_user_id">User ID</string>
+    <string name="fragment_usersetting_first_name">First Name</string>
+    <string name="fragment_usersetting_first_name_hint">Choose First Name</string>
+    <string name="fragment_usersetting_first_name_update_successful">First name successfully updated</string>
+    <string name="fragment_usersetting_first_name_update_failed">Failed to update first name</string>
+    <string name="fragment_usersetting_last_name">Last Name</string>
+    <string name="fragment_usersetting_last_name_hint">Choose Last Name</string>
+    <string name="fragment_usersetting_last_name_update_successful">Last name successfully updated</string>
+    <string name="fragment_usersetting_last_name_update_failed">Failed to update last name</string>
+    <string name="fragment_usersetting_status">Status</string>
+    <string name="fragment_usersetting_username">Username</string>
+    <string name="fragment_usersetting_username_hint">Choose Username</string>
+    <string name="fragment_usersetting_status_update_successful">Status successfully updated</string>
+    <string name="fragment_usersetting_status_update_failed">Failed to update status</string>
+    <string name="fragment_usersetting_username_update_successful">Username successfully updated</string>
+    <string name="fragment_usersetting_username_update_failed">Failed to update username</string>
+    <string name="fragment_usersetting_music_genres">Music Genres</string>
+    <string name="fragment_usersetting_private_information">Private Information</string>
+    <string name="fragment_usersetting_email">Email</string>
+    <string name="fragment_usersetting_email_update_successful">Email successfully updated</string>
+    <string name="fragment_usersetting_email_update_failed">Failed to update email</string>
+    <string name="fragment_usersetting_birthday_update_successful">Birthday successfully updated</string>
+    <string name="fragment_usersetting_birthday_update_failed">Failed to update birthday</string>
+    <string name="fragment_usersetting_phone_number">Phone Number</string>
+    <string name="fragment_usersetting_gender">Gender</string>
+    <string name="fragment_usersetting_male">Male</string>
+    <string name="fragment_usersetting_undefined">Undefined</string>
+    <string name="fragment_usersetting_female">Female</string>
+    <string name="fragment_usersetting_gender_update_successful">Gender successfully updated</string>
+    <string name="fragment_usersetting_gender_update_failed">Failed to update gender</string>
+    <string name="fragment_usersetting_account">Account</string>
+    <string name="fragment_usersetting_password">Change Password</string>
+    <string name="fragment_usersetting_password_update_successful">Password successfully updated</string>
+    <string name="fragment_usersetting_password_update_failed">Failed to update password</string>
+    <string name="fragment_usersetting_blocked_user">Blocked User</string>
+    <string name="fragment_usersetting_blocked_user_hint">Some people who make you sick</string>
+    <string name="fragment_usersetting_private_account">Private Account</string>
+    <string name="fragment_usersetting_private_account_hint">Keep your treasures secret to others, only people you approve can see your musics</string>
+    <string name="fragment_usersetting_linked_account">Linked Account</string>
+    <string name="fragment_usersetting_other">Other</string>
+    <string name="fragment_usersetting_log_out">Log Out</string>
+    <string name="fragment_usersetting_log_out_hint">You are logged in as %1$s</string>
+    <string name="fragment_usersetting_error_retrieving_account">Failed to load account.</string>
+    <string name="fragment_usersetting_profile_picture_update_successful">Profile picture successfully updated</string>
+    <string name="fragment_usersetting_profile_picture_update_failed">Failed to update profile picture</string>
+    <string name="fragment_usersetting_update_successful">Account successfully updated</string>
+    <string name="fragment_usersetting_update_failed">Failed to update Account</string>
+
+    <!--notif-->
+    <!--    <string name="on_free_member">This feature is limited to Platinum member only.</string>-->
+    <!--    <string name="limit_on_premium_up">This feature is for Premium member.</string>-->
+
+    <!--rundown-->
+    <string name="not_active">There is no active programs now.</string>
+
+    <string name="popup_playlist_delete">Are you sure delete %1$s</string>
+    <string name="snackbar_playlist_delete">Playlist will be deleted in %1$s</string>
+
+    <!--builder dialog popup-->
+    <string name="popup_post_delete">Are you sure delete this post?</string>
+    <string name="popup_article_delete">Are you sure delete this article?</string>
+    <string name="popup_pinned_message">Are you sure want pin this message?</string>
+    <string name="popup_comment_delete">Are you sure delete this comment?</string>
+    <string name="popup_activities_mark_read">Mark all messages as read?</string>
+
+    <!--GCM-->
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token...</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+
+    <!--restriction chat popup-->
+    <string name="chat_restriction_message">Enjoy %1$s live chat and other full features exclusively on %2$s</string>
+    <string name="chat_restriction_button_download">Download %1$s</string>
+
+    <!--free popup-->
+    <!--    <string name="free_popup_playlist">You are currently playing this playlist in Shuffle mode. Avoid any restrictions with Platinum. Coming Soon.</string>-->
+    <!--    <string name="free_popup_album">You are currently playing this album in Shuffle mode. Avoid any restrictions with Platinum. Coming Soon.</string>-->
+    <!--    <string name="free_popup_artist">You are currently playing this Artist in Shuffle mode. avoid any restrictions with Platinum. Coming Soon.</string>-->
+    <!--    <string name="free_popup_singgle">You are currently playing this track mix. Avoid any restrictions with Platinum. Coming Soon.</string>-->
+    <!--    <string name="free_popup_curation">You are currently playing curated list in Shuffle mode. Avoid any restriction with Platinum. Coming Soon.</string>-->
+    <!--    <string name="free_popup_default">You are currently playing in Shuffle mode. Avoid any restriction with Platinum. Coming Soon.</string>-->
+    <string name="free_button_goto_premium">Got It</string>
+
+    <string name="force_logout">Your login session has been expired. \nPlease login again.</string>
+
+    <string name="signup_user_sort">Username is too sort</string>
+
+    <string name="never_show_again">Never Show this message</string>
+    <string name="show_more">Show More</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="follow">Follow</string>
+    <string name="play">Play</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close">Close</string>
+
+    <string name="failed_connect_server">can\'t connect with server</string>
+    <string name="stay_tune_caps">STAY TUNE</string>
+    <string name="stay_tuned_caps">STAY TUNED</string>
+    <string name="phone">phone</string>
+    <string name="cancel">Cancel</string>
+    <string name="now">Now</string>
+    <string name="beta">VERSION %1s</string>
+    <string name="patch">Patch %1s</string>
+    <string name="skip">Skip</string>
+    <string name="shuffle">shuffle</string>
+    <string name="cover">cover</string>
+    <string name="back">back</string>
+    <string name="show_more_cap">SHOW MORE</string>
+    <string name="update">Update</string>
+    <string name="option">option</string>
+    <string name="comment">Comment</string>
+    <string name="queue">Queue</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="next_track">Next Track</string>
+    <string name="video">video</string>
+    <string name="open_app">Open App</string>
+    <string name="button">button</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="shows">Shows</string>
+    <string name="now_on_air">Now On Air</string>
+    <string name="rundown">Rundown</string>
+    <string name="empty_state">Empty State</string>
+    <string name="username_email">Username / email</string>
+    <string name="sign_in_with">Sign in with</string>
+    <string name="sign_up_with">Sign up with</string>
+    <string name="don_t_have_an_account">Don’t have an account?</string>
+    <string name="register">Register</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="phone_number">Phone number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register_name">Name</string>
+    <string name="register_username">Username</string>
+    <string name="about">About</string>
+    <string name="gender">Gender</string>
+    <string name="let_s_go">Let\'s Go!</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="clock">clock</string>
+    <string name="cancel_timer">Cancel Timer</string>
+    <string name="stop_timer">Stop Timer</string>
+    <string name="set_timer">Set Timer</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="load_previous_comments">Load Previous Comments</string>
+    <string name="edited">Edited</string>
+    <string name="comments">Comments</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="stay_tune">Stay Tune</string>
+    <string name="stay_tuned">Stay Tuned</string>
+    <string name="radio_podcast">Radio Podcast</string>
+    <string name="user_podcast">User Podcast</string>
+    <string name="add_category">Add Category</string>
+    <string name="history">history</string>
+
+    <string name="username_formatted">\@%1$s</string>
+    <string name="explicit">Explicit</string>
+    <string name="add_your_rss">Add Your RSS</string>
+
+
+    <string name="popup_unfollow">Are you sure unfollow %1$s?</string>
+    <string name="reply">Reply</string>
+    <string name="comment_response_count">%1$d Response</string>
+    <string name="submit">Submit</string>
+    <string name="shuffle_play">Shuffle Play</string>
+    <string name="finish">Finish</string>
+    <string name="start">Start</string>
+    <string name="refer">Refer</string>
+    <string name="your_referral_code">Your Referral Code</string>
+    <string name="copy">Copy</string>
+    <string name="tap_here_to_enter">Tap Here to Enter</string>
+    <string name="enter_invite_code">Enter Invite Code</string>
+    <string name="redeem">Redeem</string>
+    <string name="your_referral_score">Your Referral Score</string>
+    <string name="today">Today</string>
+    <string name="total_score">Total Score</string>
+    <string name="this_week">This Week</string>
+    <string name="this_month">This Month</string>
+    <string name="rewards">Rewards</string>
+
+    <string name="referral_reward_time">Waktu: %1$d %2$s</string>
+    <string name="referral_reward_count">Referral: %1$d</string>
+    <string name="day">hari</string>
+    <string name="month">bulan</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="apply">apply</string>
+
+    <string name="comments_formatted">%1$d Comments</string>
+    <string name="terms_of_services">Terms of Services</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="community_guidelines">Community Guidelines</string>
+    <string name="user_generated_content">User Generated Content</string>
+    <string name="user_ranking">User Ranking</string>
+    <string name="show_s_rank">Show %1$s rank</string>
+    <string name="user_s_rank">User %1$s rank</string>
+    <string name="your_current_s_rank">Your current %1$s rank</string>
+    <string name="ranking_s">Ranking %1$s</string>
+    <string name="raise_your_rank_up_and_get_the_prize">Raise your rank up and get the prize..!</string>
+    <string name="be_the_first_s">Be the first %1$s</string>
+    <string name="choose_video">choose video</string>
+    <string name="change_video">change video</string>
+    <string name="choose_image_cover">choose image cover</string>
+    <string name="choose_image_cover_wide">choose image cover wide</string>
+    <string name="upload_upper">UPLOAD</string>
+    <string name="play_button">Play</string>
+    <string name="live_visual">Live Visual</string>
+    <string name="claim">Claim</string>
+
+    <!--document-->
+    <string name="choose_document">Choose Document</string>
+    <string name="change_document">Change Document</string>
+    <string name="post_to_timeline">Post to Timeline</string>
+    <string name="download">Download</string>
+
+    <string name="this_room_is_private">Private channel.\nRegistered and authorized users only</string>
+    <string name="register_now">REGISTER NOW</string>
+
+    <string name="agree_privacy_policy">You must agree to the Term Of Services &amp; Privacy Policy.</string>
+    <string name="complete_profile">Complete Profile</string>
+
+    <string name="copyright">copyright</string>
+
+    <!--    refactor for internationalize-->
+    <string name="inter_cancel">Cancel</string>
+    <string name="inter_sign_up">Sign Up</string>
+    <string name="inter_skip">Skip</string>
+    <string name="inter_register_username">Username</string>
+    <string name="inter_register_name">Name</string>
+    <string name="inter_agreement_term_of_service">I agree to Term of Service and Privacy Policy.</string>
+    <string name="inter_signUp">Sign Up</string>
+    <string name="inter_sign_up_with">Sign up with</string>
+    <string name="inter_phone_number">Phone number</string>
+    <string name="inter_agreement_by_creating">By creating an account I agree to application &#160;</string>
+    <string name="inter_agreement_term_of_services">Term Of Services</string>
+    <string name="inter_agreement_confirm">&#160; and confirm I have read application &#160;</string>
+    <string name="inter_agreement_privacy_policy">Privacy Policy</string>
+    <string name="inter_term_of_services">Term Of Services</string>
+    <string name="inter_privacy_policy">Privacy Policy</string>
+    <string name="inter_have_an_account">Have an account? &#160; </string>
+    <string name="inter_have_an_account_sign_in">Sign In</string>
+    <string name="inter_username_cant_blank">Username can\'t be blank.</string>
+    <string name="inter_name_cant_blank">Name can\'t be blank.</string>
+    <string name="inter_email_cant_blank">Email can\'t be blank.</string>
+    <string name="inter_password_cant_blank">Password can\'t be blank.</string>
+    <string name="inter_wrong_email">Wrong email.</string>
+    <string name="inter_password_to_short">Password to short.</string>
+    <string name="inter_agree_privacy_policy">You must agree to the Term Of Services &amp; Privacy Policy.</string>
+    <string name="inter_signIn">Sign In</string>
+    <string name="inter_forgot_password">Forgot Password</string>
+    <string name="inter_sign_in_with">Sign in with</string>
+    <string name="inter_have_no_account_info">Don’t have an account?&#160;</string>
+    <string name="inter_have_no_account_register">Register</string>
+    <string name="inter_followers">Followers</string>
+    <string name="inter_followings">Followings</string>
+    <string name="inter_notification">Notifications</string>
+    <string name="inter_resume_play">Resume Play</string>
+    <string name="inter_messages">Messages</string>
+    <string name="inter_activities">Activities</string>
+    <string name="inter_membership">Membership</string>
+    <string name="inter_preference">Preference</string>
+    <string name="inter_referral">Referral</string>
+    <string name="inter_themes">Themes</string>
+    <string name="inter_settings">Settings</string>
+    <string name="inter_term_and_policies">Terms and Policies</string>
+    <string name="inter_log_out">Log Out</string>
+    <string name="inter_quality">Quality</string>
+    <string name="inter_queue">Queue</string>
+    <string name="inter_now_playing">Now Playing</string>
+    <string name="inter_next_track">Next Track</string>
+    <string name="inter_show_more_cap">SHOW MORE</string>
+    <string name="inter_live_chat">Live Chat</string>
+    <string name="inter_share">Share</string>
+    <string name="inter_live_visual">Live Visual</string>
+    <string name="inter_now_on_air">Now On Air</string>
+    <string name="inter_type_message">Type a message…</string>
+    <string name="inter_dialog_add_to_library">Add to Library</string>
+    <string name="inter_dialog_remove_from_library">Remove from Library</string>
+    <string name="inter_dialog_add_to_next">Add to Up Next</string>
+    <string name="inter_dialog_add_to_playlist">Add to Playlist</string>
+    <string name="inter_dialog_go_to_album">Go to Album</string>
+    <string name="inter_dialog_edit_music">Edit Music</string>
+    <string name="inter_dialog_go_to_artist">Go to Artist</string>
+    <string name="inter_dialog_post_to_timeline">Post</string>
+    <string name="inter_dialog_share">Share</string>
+    <string name="inter_dialog_take_offline">Take Offline</string>
+    <string name="inter_dialog_remove_offline">Remove Offline</string>
+    <string name="inter_dialog_shuffle_play">Shuffle Play</string>
+    <string name="inter_dialog_add_to_radio">Add to Radio</string>
+    <string name="inter_dialog_remove_from_radio">Remove from Radio</string>
+    <string name="inter_dialog_streaming">Play Streaming</string>
+    <string name="inter_dialog_go_to_radio">Go to Radio</string>
+    <string name="inter_dialog_create_post_from_feed">Create new post from this feed</string>
+    <string name="inter_dialog_share_post_to_other_app">Share to other app</string>
+    <string name="inter_dialog_go_to_account">Go to User Account</string>
+    <string name="inter_dialog_show_rundown">Show Rundown</string>
+    <string name="inter_dialog_leave_private_room">Leave Private Room</string>
+    <string name="inter_dialog_follow">Follow</string>
+    <string name="inter_dialog_unfollow">Unfollow</string>
+    <string name="inter_dialog_go_to_profile">Go to Profile</string>
+    <string name="inter_setting_title_application">Application</string>
+    <string name="inter_setting_language">Language</string>
+    <string name="inter_notification_title">Notification</string>
+    <string name="inter_notification_mark_all_as_read">Mark all as read</string>
+    <string name="inter_notification_following">Following</string>
+    <string name="inter_notification_follow">Follow</string>
+    <string name="inter_notification_comment_your">%1$s comment your %2$s</string>
+    <string name="inter_notification_event_follow">now following you</string>
+    <string name="inter_notification_event_like">like your %1$s</string>
+    <string name="inter_activities_title">Activities</string>
+    <string name="inter_activities_take_offline_music">Take Offline Music</string>
+    <string name="inter_activities_remove_offline_music">Remove Offline Music</string>
+    <string name="inter_activities_playing_music">Playing Music</string>
+    <string name="inter_activities_listening_chanel">Listening Chanel</string>
+    <string name="inter_activities_take_offline_chanel_content">Take Offline Chanel Content</string>
+    <string name="inter_activities_remove_offline_chanel_content">Remove Offline Chanel Content</string>
+    <string name="inter_activities_listening_chanel_content">Listening Chanel Content</string>
+    <string name="inter_activities_take_offline_podcast">Take Offline Podcast</string>
+    <string name="inter_activities_remove_offline_podcast">Remove Offline Podcast</string>
+    <string name="inter_activities_listening_podcast">Listening Podcast</string>
+    <string name="inter_activities_take_offline_video">Take Offline Video</string>
+    <string name="inter_activities_remove_offline_video">Remove Offline Video</string>
+    <string name="inter_activities_watching_video">Watching Video</string>
+    <string name="inter_activities_download_document">Download Document</string>
+    <string name="inter_activities_view_document">View Document</string>
+    <string name="inter_activities_open">Open</string>
+    <string name="inter_user_setting_first_name_label">First Name</string>
+    <string name="inter_user_setting_first_name_hint">first name</string>
+    <string name="inter_user_setting_last_name_label">Last Name</string>
+    <string name="inter_user_setting_last_name_hint">last name</string>
+    <string name="inter_user_setting_username_label">Username</string>
+    <string name="inter_user_setting_username_hint">username</string>
+    <string name="inter_user_setting_description_label">Description</string>
+    <string name="inter_user_setting_description_hint">description</string>
+    <string name="inter_user_setting_private_information">Private Information</string>
+    <string name="inter_user_setting_gender">Gender</string>
+    <string name="inter_user_setting_male">Male</string>
+    <string name="inter_user_setting_undefined">Undefined</string>
+    <string name="inter_user_setting_female">Female</string>
+    <string name="inter_user_setting_birthday">Birthday</string>
+    <string name="inter_user_setting_account">Account</string>
+    <string name="inter_user_setting_change_password">Change Password</string>
+    <string name="inter_user_setting_other">Other</string>
+    <string name="inter_user_setting_log_out">Log Out</string>
+    <string name="inter_user_setting_log_out_hint">You are logged in as %1$s</string>
+    <string name="inter_user_profile_followers">%1$s Followers</string>
+    <string name="inter_user_profile_followings">%1$s Followings</string>
+    <string name="inter_user_profile_follow">  Follow  </string>
+    <string name="inter_user_profile_unfollow">Unfollow</string>
+    <string name="inter_user_profile_message">Message</string>
+    <string name="inter_no_content_yet">No Content Yet!</string>
+    <string name="inter_no_connection">No Connection!</string>
+    <string name="inter_some_think_went_wrong">Something Went Wrong!</string>
+    <string name="inter_poor_connection">Poor Connection, Please Reload</string>
+    <string name="inter_not_found">Not Found!</string>
+    <string name="inter_no_follower_yet">No Follower Yet!</string>
+    <string name="inter_no_following_yet">No Following Yet!</string>
+    <string name="inter_signup_password">Password</string>
+    <string name="inter_your_library">Your Library</string>
+    <string name="inter_sign_in_phone">Sign In With Phone Number</string>
+    <string name="inter_sign_with">Sign In With</string>
+    <string name="inter_complete_profile">Complete Profile</string>
+    <string name="inter_about">About</string>
+    <string name="inter_let_s_go">Let\'s Go!</string>
+    <string name="inter_fragment_user_setting_title">User Profile</string>
+    <string name="inter_fragment_setting_title">Settings</string>
+    <string name="inter_setting_title_free_user">FREE USER</string>
+    <string name="inter_setting_sub_free_user">Pop Up</string>
+    <string name="inter_setting_text_free_user">Always show popup when playing premium content (free user only)</string>
+    <string name="inter_setting_title_auto_play">PLAYER</string>
+    <string name="inter_setting_sub_auto_play">Auto Play</string>
+    <string name="inter_setting_text_auto_play">Enable auto play when opening app.</string>
+    <string name="inter_setting_text_about_app">ABOUT APPLICATION</string>
+    <string name="inter_setting_text_version">Version</string>
+    <string name="inter_setting_text_tos_desc">All the stuff that you need to know.</string>
+    <string name="inter_setting_text_pp_desc">Important for both of us.</string>
+    <string name="inter_setting_text_other">OTHER</string>
+    <string name="inter_setting_text_log_out">Log Out</string>
+    <string name="inter_verify_phone_number">VERIFY PHONE NUMBER</string>
+    <string name="inter_verification_code">Verification Code</string>
+    <string name="inter_verify">VERIFY</string>
+    <string name="inter_code_info">Enter the 6-digit code we sent to \n %1$s</string>
+    <string name="inter_resend_code">Resend Code</string>
+    <string name="inter_resend_code_in">Resend in: %1$s</string>
+    <string name="inter_phone_code_invalid">Invalid Code.</string>
+    <string name="inter_change_number">Change Number</string>
+    <string name="inter_show_video_progress">SHOW VIDEO PROGRESS</string>
+    <string name="inter_video_progress">Video Progress</string>
+    <string name="inter_video_progress_owner">Owner:</string>
+    <string name="inter_video_progress_date">Date uploaded:</string>
+    <string name="inter_video_progress_duration">Video duration:</string>
+    <string name="inter_video_progress_played">Played time:</string>
+    <string name="inter_video_progress_progress">Completion progress:</string>
+    <string name="inter_tutorials">Tutorials</string>
+    <string name="inter_report">Report</string>
+    <string name="inter_report_user">Report @%1$s</string>
+    <string name="inter_report_content">Report %1$s</string>
+    <string name="inter_report_comment">Report comment by @%1$s</string>
+    <string name="inter_report_question_account">Why are you reporting this account?</string>
+    <string name="inter_report_question_content">Why are you reporting this content?</string>
+    <string name="inter_report_question_comment">Why are you reporting this comment?</string>
+    <string name="inter_report_information">Your report is anonymous, except if you’re reporting an intellectual property infringement. </string>
+    <string name="inter_report_feedback_title">Thanks for reporting this %1$s</string>
+    <string name="inter_report_feedback_detail">Your feedback is important in helping us keep the App community safe.</string>
+    <string name="inter_block">Block</string>
+    <string name="inter_unblock">Unblock</string>
+    <string name="inter_block_user">Block %1$s</string>
+    <string name="inter_block_information">They won’t be able to message you or find your profile and post on this app. They won’t be notified that you blocked them.</string>
+    <string name="inter_block_user_info">%1$s blocked you.</string>
+    <string name="inter_blocked_user_info">you blocked %1$s.</string>
+    <string name="inter_close_app_notification">Please press back button again to close.</string>
+    <string name="inter_channel_success_add_to_library">The channel has been added to the library!</string>
+    <string name="inter_channel_success_add_to_favorite">The channel has been subscribed!</string>
+    <string name="inter_channel_failed_add_to_library">Failed to add channel to library!</string>
+    <string name="inter_channel_failed_add_to_favorite">Failed to subscribe channel!</string>
+    <string name="inter_channel_success_remove_from_library">The channel has been removed from the library!</string>
+    <string name="inter_channel_success_remove_from_favorite">The channel has been unsubscribed!</string>
+    <string name="inter_channel_failed_remove_from_library">Failed to remove channel to library!</string>
+    <string name="inter_channel_failed_remove_from_favorite">Failed to unsubscribe channel</string>
+    <string name="inter_reload">Reload</string>
+    <string name="inter_no_managed_channels">There are no channels that You manage</string>
+    <string name="inter_phone_login_failed">Failed to login Phone</string>
+    <string name="inter_failed_communicate_to_server">Failed to communicate to server. Please check your connection</string>
+    <string name="inter_wrong_username_and_password">Wrong username or password</string>
+    <string name="inter_facebook_login_failed">Failed to login Facebook</string>
+    <string name="inter_google_login_failed">Failed to login with google</string>
+    <string name="inter_request_timeout">Request timeout</string>
+    <string name="inter_first_name_blank">First name can’t be blank</string>
+    <string name="inter_last_name_blank">Last name can’t be blank</string>
+    <string name="inter_description_blank">Description can’t be blank</string>
+    <string name="inter_empty_timeline">Your Timeline No Content Yet. Try To Create One.</string>
+    <string name="inter_slow_connection">No internet connection</string>
+    <string name="edit_comment">Edit Comment</string>
+    <string name="delete_comment">Delete Comment</string>
+    <string name="view_uploader">View Uploader</string>
+    <string name="show_lyrics">Show Lyrics</string>
+    <string name="radio_page">Radio Page</string>
+    <string name="radio_profile">Radio Profile</string>
+    <string name="show_article">Show Article</string>
+    <string name="view_artist">View Artist</string>
+    <string name="view_album">View Album</string>
+    <string name="show_rundown">Show Rundown</string>
+    <string name="first_index">First Index</string>
+    <string name="error_loading_artist">Error loading artist:</string>
+    <string name="failed_to_update_comment">Failed to update comment</string>
+    <string name="comment_updated">Comment Updated</string>
+    <string name="comment_deleted">Comment Deleted</string>
+    <string name="failed_to_deleted_comment">Failed to deleted Comment</string>
+    <string name="comment_first">Please enter your comment first</string>
+    <string name="failed_send_comment">Failed send comment</string>
+    <string name="comment_edited">Comment Edited</string>
+    <string name="comment_posted">Comment Posted</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="failed_follow_an_user">Failed follow an user</string>
+    <string name="remove_from_library">Remove from library</string>
+    <string name="added_to"> added to </string>
+    <string name="adding_playlist">Get error response when adding playlist</string>
+    <string name="new_playlist">New Playlist</string>
+    <string name="pin">Pin</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="unpin">Unpin</string>
+    <string name="error">Error:</string>
+    <string name="playlist_to_radio">Playlist to Radio</string>
+    <string name="success">Success</string>
+    <string name="yes">Yes</string>
+    <string name="failed_leave_private_room">Failed leave private room</string>
+    <string name="no">No</string>
+    <string name="article">Article</string>
+    <string name="new_document">New Document</string>
+    <string name="new_article">New Article</string>
+    <string name="edit_document">Edit Document</string>
+    <string name="edit_article">Edit Article</string>
+    <string name="delete_article">Delete Article</string>
+    <string name="uploading_document">Uploading document</string>
+    <string name="failed_upload_document">Failed upload document</string>
+    <string name="uploaded"> Uploaded</string>
+    <string name="failed_to_create">Failed to create </string>
+    <string name="failed_to_update">Failed to update </string>
+    <string name="updated"> Updated</string>
+    <string name="open">Open</string>
+    <string name="deleted"> deleted</string>
+    <string name="failed_to_deleted"> failed to deleted</string>
+    <string name="private_room">Private Room</string>
+    <string name="failed_to_upload_image">Failed to Upload Image</string>
+    <string name="failure_getting_GCM">Failure getting GCM token</string>
+    <string name="check_your_internet">Check your internet connection</string>
+    <string name="this_feature_not_available">This feature not available on this device</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="package_not_available">Package not available</string>
+    <string name="failed_to_launch_payment">Failed to launch payment</string>
+    <string name="payment_successful">Payment Successful</string>
+    <string name="thank_you">Thank You</string>
+    <string name="already_owned">Already Owned</string>
+    <string name="yeay">Yeay!</string>
+    <string name="payment_failed">Payment Failed</string>
+    <string name="error_validate_server">error validate to server please contact us</string>
+    <string name="service_timeout">Service Timeout</string>
+    <string name="feature_not_supported">Feature Not Supported</string>
+    <string name="server_disconnected">Server Disconnected</string>
+    <string name="user_canceled">User Canceled</string>
+    <string name="service_unavailable">Service Unavailable</string>
+    <string name="billing_unavailable">Billing Unavailable</string>
+    <string name="item_unavailable">Item Unavailable</string>
+    <string name="something_wrong">Something Went Wrong: </string>
+    <string name="productid_not_match">ProductId not match: </string>
+    <string name="please_contact_developer">. please contact developer.</string>
+    <string name="mark_as_read">Mark as read</string>
+    <string name="offline_data">Offline Data</string>
+    <string name="type_a_message">type a message…</string>
+    <string name="successfully_joined_this_room">successfully joined this room</string>
+    <string name="as_guest"> as guest.</string>
+    <string name="you">You`ve</string>
+    <string name="invalid_index">Invalid Index</string>
+    <string name="invalid_id">Invalid Id</string>
+    <string name="you_cant_play">You can`t play this Music</string>
+    <string name="cant_find_shared">can`t find shared content</string>
+    <string name="last_index">Last Index</string>
+    <string name="choose_item">Choose Item</string>
+    <string name="message_too_short">Message too short</string>
+    <string name="sending_message">Sending message…</string>
+    <string name="message_sent">Message sent</string>
+    <string name="failed_to_send_message">Failed to send message</string>
+    <string name="device_identity_not_found">Device identity not found</string>
+    <string name="you_are_invited_by">You are invited by</string>
+    <string name="invalid_code">Invalid code</string>
+    <string name="cant_invite_your_self">Can`t invite your self</string>
+    <string name="redeem_code_successfully">Redeem code successfully</string>
+    <string name="your_podcast">Your Podcast</string>
+    <string name="series">Series</string>
+    <string name="no_podcast">No Podcast</string>
+    <string name="series_content">Series Content</string>
+    <string name="series_tag">Series: </string>
+    <string name="image">Image: </string>
+    <string name="save">Save</string>
+    <string name="app_login_failure">App Login Failure</string>
+    <string name="username_already_exists">Username already exists"</string>
+    <string name="failed_signup">Failed Signup!</string>
+    <string name="email_already_exists">Email already exists</string>
+    <string name="email_is_empty">Email is empty</string>
+    <string name="email_is_not_valid">Email is not valid</string>
+    <string name="password_is_empty">Password is empty</string>
+    <string name="username_is_empty">Username is empty</string>
+    <string name="caption_copied">Caption copied to clipboard</string>
+    <string name="share_to">Share to…</string>
+    <string name="have_not_been"> have not been installed.</string>
+    <string name="no_image">No image to share</string>
+    <string name="discard">Cancel</string>
+    <string name="more">More</string>
+    <string name="post_already_created">Post already created.</string>
+    <string name="failed_to_post_feed">Failed to post feed</string>
+    <string name="done">Done</string>
+    <string name="no_like">No Like</string>
+    <string name="one_like">1 Like</string>
+    <string name="likes"> Likes</string>
+    <string name="no_comment">No Comment</string>
+    <string name="one_comment">1 Comment</string>
+    <string name="comments_tag"> Comments</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="upload_video">Upload Video</string>
+    <string name="title_cant_be_blank">title can`t be blank</string>
+    <string name="description_cant_be_blank">description can`t be blank</string>
+    <string name="input_3_or_more">input 3 or more characters</string>
+    <string name="shared_a_music">shared a Music</string>
+    <string name="shared_an_account">shared an Account</string>
+    <string name="shared_an_album">shared an Album</string>
+    <string name="shared_an_artist">shared an Artist</string>
+    <string name="shared_a_radio">shared a Radio</string>
+    <string name="shared_a_radio_content">shared a Radio Content</string>
+    <string name="shared_a_playlist">shared a Playlist</string>
+    <string name="shared_an_upload">shared an Upload</string>
+    <string name="shared_a_video">shared a Video</string>
+    <string name="this_program_is_for_you">This Program is for you.. </string>
+    <string name="post">Post</string>
+    <string name="share_on">Post On</string>
+    <string name="type_your_caption">Type your caption</string>
+    <string name="popup_add_to_timeline">Are you sure want to post this content?</string>
+    <string name="popup_cancel_add_to_timeline">Are you sure want to cancel post this content?</string>
+    <string name="post_success">Successfully posted content</string>
+    <string name="inter_user_setting_delete_account">Delete Account</string>
+    <string name="inter_user_setting_delete_account_hint">You requested account deletion within 30 days</string>
+    <string name="popup_account_delete">This account will be deleted within 30 days. \nAre you sure you want to delete this account?</string>
+    <string name="popup_account_delete_success">If you want to cancel the account deletion please login before the specified time limit \n(30 days)</string>
+    <string name="logout_success">logged out successfully</string>
+    <string name="warning_delete_account">Warning!</string>
+    <string name="warning_delete_account_success">Account deletion request was successful</string>
+    <string name="privacy">PRIVACY</string>
+    <string name="blocked_contacts">Blocked Users</string>
+    <string name="list_blocked_user">List Blocked User</string>
+    <string name="no_blocked_user">No Blocked Users</string>
+    <string name="inter_dialog_close_mini_player">Close mini player</string>
+    <string name="by">&#160;by&#160;</string>
+    <string name="in">&#160;in&#160;</string>
+    <string name="pick_resource">Choose Source</string>
+    <string name="content">Content</string>
+    <string name="pinned_message_radio_profile">Untuk berinteraksi dengan Penyiar atau menyampaikan pesan dan komentar dapat menulis di menu live chat</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="email">Email</string>
+    <string name="success_edit_status">Success change status!</string>
+    <string name="failure_edit_status">Change status failure!</string>
+    <string name="professional_account">Switch Account to Professional</string>
+    <string name="personal_account">Personal Account</string>
+    <string name="organization_account">Organization Account</string>
+    <string name="business_account">Business Account</string>
+    <string name="welcome">Welcome \nWho you gonna be,</string>
+    <string name="dialog_switch_account">Are you sure want to switch account to %s?</string>
+    <string name="switch_account_success">Success switch account to %s!</string>
+    <string name="show_admin">Show Admin</string>
+    <string name="view_shop">View shop</string>
+</resources>

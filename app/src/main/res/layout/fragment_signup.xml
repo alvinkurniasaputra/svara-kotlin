@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_login">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginRight="148dp"
+        android:src="@drawable/logo_on_login"
+        app:layout_constraintDimensionRatio="W,1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inter_sign_up"
+        android:textColor="?attr/colorText1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etUsername"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/background_edit_text_login"
+        android:hint="@string/inter_register_username"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textColor="?attr/colorText1"
+        android:textColorHint="?attr/colorText1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/etName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/background_edit_text_login"
+        android:hint="@string/inter_register_name"
+        android:inputType="text"
+        android:autofillHints="name"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textColor="?attr/colorText1"
+        android:textColorHint="?attr/colorText1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/etEmail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/background_edit_text_login"
+        android:hint="@string/signup_email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:autofillHints="emailAddress"
+        android:textColor="?attr/colorText1"
+        android:textColorHint="?attr/colorText1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/etPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/background_edit_text_login"
+        android:hint="@string/inter_signup_password"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textColor="?attr/colorText1"
+        android:textColorHint="?attr/colorText1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/term"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnEye"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="11dp"
+        android:alpha="0.5"
+        android:src="@drawable/ic_eye"
+        app:layout_constraintBottom_toBottomOf="@+id/etPassword"
+        app:layout_constraintRight_toRightOf="@+id/etPassword"
+        app:layout_constraintTop_toTopOf="@+id/etPassword"
+        tools:ignore="RtlHardcoded" />
+
+    <CheckBox
+        android:id="@+id/checkTerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/term"
+        app:layout_constraintStart_toStartOf="@+id/etPassword"
+        app:layout_constraintTop_toTopOf="@+id/term" />
+
+    <TextView
+        android:id="@+id/term"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="start"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:text="@string/inter_agreement_term_of_service"
+        android:textColor="?attr/colorText1"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
+        app:layout_constraintEnd_toEndOf="@+id/etPassword"
+        app:layout_constraintStart_toEndOf="@+id/checkTerm" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/button_login"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:focusable="true"
+        android:text="@string/inter_signUp"
+        android:textColor="@color/white"
+        android:translationZ="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="UnusedAttribute" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutSocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayoutPhoneNum"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="RtlHardcoded"
+        tools:layout_editor_absoluteX="44dp">
+
+        <TextView
+            android:id="@+id/lblSignUpWith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/inter_sign_up_with"
+            android:textColor="?attr/colorText1"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <LinearLayout
+            android:id="@+id/btnFacebook"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_rounded_login"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            app:layout_constraintEnd_toStartOf="@+id/btnGoogle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lblSignUpWith"
+            app:layout_constraintWidth_percent="0.45"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/fb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook"
+                android:textColor="?attr/colorText1"
+                android:textSize="12dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnGoogle"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_rounded_login"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnFacebook"
+            app:layout_constraintTop_toBottomOf="@+id/lblSignUpWith"
+            app:layout_constraintWidth_percent="0.45"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginRight="4dp"
+                android:src="@drawable/googleg_standard_color_18" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/google"
+                android:textColor="?attr/colorText1"
+                android:textSize="12dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutPhoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutSocial">
+        <TextView
+            android:id="@+id/btnPhone"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border_rounded_login"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="@string/inter_phone_number"
+            android:textColor="?attr/colorText1"
+            android:textSize="12dp"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintWidth_percent="0.45"
+            tools:ignore="SpUsage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="@string/register"
+        android:textColor="?attr/colorText1"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutPhoneNum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/btnSkip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/status_bar_height"
+        android:layout_marginRight="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:padding="8dp"
+        android:text="@string/inter_skip"
+        android:textColor="?attr/colorText1"
+        android:textSize="12sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <FrameLayout
+        android:id="@+id/fragmentChild"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/colorBackground1"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

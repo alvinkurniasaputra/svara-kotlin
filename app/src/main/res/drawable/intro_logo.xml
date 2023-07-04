@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:opacity="opaque">
+    <item
+        android:bottom="120dp"
+        android:top="60dp"
+        android:left="120dp"
+        android:right="120dp"
+        android:gravity="center">
+        <bitmap
+            android:antialias="true"
+            android:dither="true"
+            android:filter="true"
+            android:alpha="1"
+            android:gravity="center"
+            android:src="@drawable/img_logoflat"
+            android:tint="@color/white"/>
+    </item>
+</layer-list>

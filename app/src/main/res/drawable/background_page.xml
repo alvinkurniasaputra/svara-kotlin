@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Gradient Background Page-->
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item>-->
+<!--        <shape>-->
+<!--            <gradient-->
+<!--                android:startColor="?attr/colorBackground3"-->
+<!--                android:endColor="?attr/colorBackground4"-->
+<!--                android:type="linear"-->
+<!--                android:angle="-90"/>-->
+<!--        </shape>-->
+<!--    </item>-->
+<!--</selector>-->
+
+<!--Solid Background Page-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape>
+        <solid android:color="?attr/colorBackground1"/>
+    </shape>
+</item>
+</selector>

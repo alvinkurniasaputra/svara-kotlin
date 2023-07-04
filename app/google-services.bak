@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "341930179672",
+    "firebase_url": "https://svara-34308.firebaseio.com",
+    "project_id": "svara-34308",
+    "storage_bucket": "svara-34308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341930179672:android:eaffbf3758ca2b96",
+        "android_client_info": {
+          "package_name": "com.zamrud.radio.mobile.app.svara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FwYEmdfpi0fR7aV8prXviRq3wAXc20U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="colorHeader">#f0f0f0</color>
+    <color name="pinnedBackground">#41ABDE</color>
+    <color name="pinnedText">#FFFFFF</color>
+
+    <!--link color-->
+    <color name="link_color">#0645AD</color>
+    <color name="link_color_visited">#0B0080</color>
+    <color name="login_text">#5000</color>
+
+    <color name="background_intro_start">#0D181C</color>
+    <color name="background_intro_end">#0D181C</color>
+
+    <!--LIGHT-->
+    <color name="light_color_primary">#41ABDE</color>
+    <color name="light_color_accent">#EF2BAC</color>
+    <color name="light_color_success">#4ECB35</color>
+    <color name="light_color_error">#DF0B08</color>
+    <color name="light_color_warning">#ff9800</color>
+    <color name="light_color_info">#41ABDE</color>
+    <color name="light_fab_text">#FFFFFF</color>
+    <!--black 25% transparent recommended-->
+    <color name="light_status_bar_background">#00000000</color>
+    <!--white 25% transparent recommended-->
+    <color name="light_status_bar_background_invert">#40FFFFFF</color>
+    <color name="light_background_toolbar">#225B76</color>
+    <color name="light_text_toolbar">#FFFFFF</color>
+    <color name="light_icon_toolbar">#FFFFFF</color>
+    <color name="light_icon_tab">#FFFFFF</color>
+    <color name="light_search_page_header">#225B76</color>
+    <color name="light_search_page_field">#444444</color>
+    <color name="light_search_page_text">#FFFFFF</color>
+    <color name="light_search_page_icon">#CCCCCC</color>
+    <color name="light_background_1">#FFFFFF</color>
+    <color name="light_background_2">#E6E6E6</color>
+    <color name="light_background_3">#E6E6E6</color>
+    <color name="light_background_4">#E6E6E6</color>
+    <color name="light_background_5">#E6E6E6</color>
+    <color name="light_text_1">#000000</color>
+    <color name="light_text_2">#111111</color>
+    <color name="light_text_3">#222222</color>
+    <color name="light_text_4">#333333</color>
+    <!--white 75% transparent-->
+    <color name="light_text_5">#BFFFFFFF</color>
+    <color name="light_background_mini_player">#225B76</color>
+    <color name="light_text_mini_player">#FFFFFF</color>
+    <!--black 85% transparent-->
+    <color name="light_icon_1">#D9000000</color>
+    <!--black 40% transparent-->
+    <color name="light_icon_2">#66000000</color>
+    <color name="light_transparent_70">#50000000</color>
+    <color name="light_tab_layout_home">#225B76</color>
+    <color name="light_tab_layout_home_text">#FFFFFF</color>
+    <color name="light_like_color">#FF0000</color>
+    <color name="light_gradient_start_color">#FFFFFF</color>
+    <!-- #4D transparent 30% RECOMMENDED -->
+    <color name="light_gradient_middle_color">#4DFFFFFF</color>
+    <color name="light_gradient_end_color">#00FFFFFF</color>
+    <!--Full like dark background1-->
+    <color name="light_gradient_card_bg_start_color">#0D181D</color>
+    <!--80% transparent of dark background-->
+    <color name="light_gradient_card_bg_middle_color">#CC0D181D</color>
+    <!--60% transparent of dark background-->
+    <color name="light_gradient_card_bg_end_color">#990D181D</color>
+    <color name="light_library_badge_color">#333333</color>
+    <color name="light_library_badge_text_color">#FFFFFF</color>
+    <color name="light_channel_action_background">#225B76</color>
+    <color name="light_channel_action_icon_color">#FFFFFF</color>
+
+    <!--DARK-->
+    <color name="dark_color_primary">#41ABDE</color>
+    <color name="dark_color_accent">#EF2BAC</color>
+    <color name="dark_color_success">#4ECB35</color>
+    <color name="dark_color_error">#DF0B08</color>
+    <color name="dark_color_warning">#ff9800</color>
+    <color name="dark_color_info">#41ABDE</color>
+    <color name="dark_fab_text">#FFFFFF</color>
+    <!--black 25% transparent recommended-->
+    <color name="dark_status_bar_background">#40000000</color>
+    <!--white 25% transparent recommended-->
+    <color name="dark_status_bar_background_invert">#40FFFFFF</color>
+    <color name="dark_background_toolbar">#0D181D</color>
+    <color name="dark_text_toolbar">#FFFFFF</color>
+    <color name="dark_icon_toolbar">#FFFFFF</color>
+    <color name="dark_icon_tab">#FFFFFF</color>
+    <color name="dark_search_page_header">#225B76</color>
+    <color name="dark_search_page_field">#444444</color>
+    <color name="dark_search_page_text">#FFFFFF</color>
+    <color name="dark_search_page_icon">#CCCCCC</color>
+    <color name="dark_background_1">#0D181D</color>
+    <color name="dark_background_2">#1C2930</color>
+    <color name="dark_background_3">#263238</color>
+    <color name="dark_background_4">#303C41</color>
+    <color name="dark_background_5">#3F484B</color>
+    <color name="dark_text_1">#FFFFFF</color>
+    <color name="dark_text_2">#DDDDDD</color>
+    <color name="dark_text_3">#AAAAAA</color>
+    <color name="dark_text_4">#888888</color>
+    <!--white 75% transparent-->
+    <color name="dark_text_5">#666666</color>
+    <color name="dark_background_mini_player">#0D181D</color>
+    <color name="dark_text_mini_player">#FFFFFF</color>
+    <!--black 85% transparent-->
+    <color name="dark_icon_1">#EEEEEE</color>
+    <!--black 40% transparent-->
+    <color name="dark_icon_2">#999999</color>
+    <color name="dark_transparent_70">#50FFFFFF</color>
+    <color name="dark_tab_layout_home">#0D181D</color>
+    <color name="dark_tab_layout_home_text">#FFFFFF</color>
+    <color name="dark_like_color">#FF0000</color>
+    <color name="dark_gradient_start_color">#0D181D</color>
+    <!-- #4D transparent 30% RECOMMENDED -->
+    <color name="dark_gradient_middle_color">#4D0D181D</color>
+    <color name="dark_gradient_end_color">#000D181D</color>
+    <!--Full like light background1-->
+    <color name="dark_gradient_card_bg_start_color">#FFFFFF</color>
+    <!--80% transparent of light background-->
+    <color name="dark_gradient_card_bg_middle_color">#CCFFFFFF</color>
+    <!--60% transparent of light background-->
+    <color name="dark_gradient_card_bg_end_color">#99FFFFFF</color>
+    <color name="dark_library_badge_color">#686868</color>
+    <color name="dark_library_badge_text_color">#000000</color>
+    <color name="dark_channel_action_background">#225B76</color>
+    <color name="dark_channel_action_icon_color">#FFFFFF</color>
+
+
+    <!--    GENERAL COLOR-->
+    <color name="white">#fff</color>
+    <color name="red">#f00</color>
+    <color name="abu">#C6C6C6</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_05">#0D000000</color>
+    <color name="transparent_70">#B3000000</color>
+    <color name="transpaernt_50">#80000000</color>
+    <color name="transparent_40">#66000000</color>
+    <color name="transpaernt_70">#50000000</color>
+    <color name="transpaernt_90">#35000000</color>
+    <color name="transpaernt_white">#90ffffff</color>
+    <color name="transpaernt_blue">#9067b5da</color>
+    <color name="transpaernt_blue_border">#90bfd8e4</color>
+    <color name="white_transparant_90">#eeffffff</color>
+    <color name="white_transparent_60">#99ffffff</color>
+    <color name="white_transparent_0">#00ffffff</color>
+    <color name="dusky_blue">#4c63a7</color>
+    <color name="watermelon">#f83f6a</color>
+    <color name="btn_green">#8acd63</color>
+    <color name="bright_lime_green">#5eff00</color>
+    <color name="apple_dark">#48993a</color>
+    <color name="bluegrey">#91b2b7</color>
+    <color name="greyish">#b3b3b3</color>
+    <color name="greyish_brown">#515151</color>
+    <color name="white_grey">#e5e5e5</color>
+    <color name="white_two">#d8d8d8</color>
+    <color name="white_three">#e6e6e6</color>
+    <color name="warm_grey">#828282</color>
+    <color name="warm_grey_two">#979797</color>
+    <color name="black_two">#363636</color>
+    <color name="grad_start">#ee000000</color>
+    <color name="grad_mid">#80000000</color>
+    <color name="grad_end">#00000000</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_700">#616161</color>
+    <color name="line_up">#33000000</color>
+    <color name="line_bot">#11000000</color>
+    <color name="svara_red">#f44336</color>
+    <color name="svara_pink">#e91e63</color>
+    <color name="svara_purple">#9c27b0</color>
+    <color name="svara_deep_purple">#673ab7</color>
+    <color name="svara_indigo">#3f51b5</color>
+    <color name="svara_blue">#2196f3</color>
+    <color name="svara_cyan">#00bcd4</color>
+    <color name="svara_teal">#009688</color>
+    <color name="svara_green">#4caf50</color>
+    <color name="svara_lime">#cddc39</color>
+    <color name="svara_yellow">#ffeb3b</color>
+    <color name="svara_amber">#ffc107</color>
+    <color name="svara_orange">#ff9800</color>
+    <color name="svara_deep_orange">#ff5722</color>
+    <color name="svara_brown">#795548</color>
+    <color name="svara_grey">#9e9e9e</color>
+    <color name="svara_blue_grey">#607d8b</color>
+    <color name="svara_white">#ffffff</color>
+    <color name="svara_black">#de000000</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="transparent_1">#90000000</color>
+    <color name="transparent_2">#50000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="black_75">#BF000000</color>
+    <color name="black_65">#A8000000</color>
+    <color name="black_25">#40000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="white_75">#BFFFFFFF</color>
+    <color name="white_25">#40FFFFFF</color>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:opacity="opaque">
+    <item android:gravity="fill">
+        <layer-list>
+            <item android:gravity="fill"
+                android:drawable="@drawable/splash_background_image"/>
+            <item android:gravity="fill">
+                <shape >
+                    <solid android:color="#00000000"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/splash_foreground_image">
+    </item>
+    <item android:gravity="center|bottom"
+        android:bottom="32dp"
+        android:drawable="@drawable/ic_beta_version">
+
+    </item>
+</layer-list>

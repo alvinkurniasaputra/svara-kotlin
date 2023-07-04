@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent" />
+            <size android:height="@dimen/loading_seekbar" />
+        </shape>
+    </item>
+    <item android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <solid
+                android:height="@dimen/loading_seekbar"
+                android:color="?attr/colorPrimary" />
+            <corners android:radius="0dp" />
+            <size android:height="@dimen/loading_seekbar" />
+        </shape>
+    </item>
+</layer-list>

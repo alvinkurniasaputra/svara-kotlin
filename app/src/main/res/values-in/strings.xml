@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username_email">Nama Pengguna / email</string>
+    <string name="signup_password">Kata Sandi</string>
+
+    <!--    refactor for internationalize-->
+    <string name="inter_cancel">Batal</string>
+    <string name="inter_sign_up">Daftar</string>
+    <string name="inter_skip">Lewati</string>
+    <string name="inter_register_username">Nama Pengguna</string>
+    <string name="inter_register_name">Nama</string>
+    <string name="inter_agreement_term_of_service">Saya setuju dengan Ketentuan Layanan dan Kebijakan Privasi.</string>
+    <string name="inter_signUp">Daftar</string>
+    <string name="inter_sign_up_with">Mendaftar Dengan</string>
+    <string name="inter_phone_number">Nomor Telpon</string>
+    <string name="inter_agreement_by_creating">Dengan membuat akun, saya menyetujui &#160; </string>
+    <string name="inter_agreement_term_of_services">Ketentuan Layanan</string>
+    <string name="inter_agreement_confirm"> &#160;aplikasi dan saya telah membaca&#160; </string>
+    <string name="inter_agreement_privacy_policy">Kebijakan pribadi</string>
+    <string name="inter_term_of_services">Ketentuan Layanan</string>
+    <string name="inter_privacy_policy">Kebijakan Pribadi</string>
+    <string name="privacy_policy">Kebijakan Pribadi</string>
+    <string name="community_guidelines">Pedoman Komunitas</string>
+    <string name="user_generated_content">Konten Buatan Pengguna</string>
+    <string name="inter_have_an_account">Sudah punya akun? &#160; </string>
+    <string name="inter_have_an_account_sign_in">Masuk</string>
+    <string name="inter_username_cant_blank">Nama pengguna tidak boleh kosong.</string>
+    <string name="inter_name_cant_blank">Nama tidak boleh kosong.</string>
+    <string name="inter_email_cant_blank">Email tidak boleh kosong.</string>
+    <string name="inter_password_cant_blank">Kata sandi tidak boleh kosong.</string>
+    <string name="inter_wrong_email">Email salah.</string>
+    <string name="inter_password_to_short">Kata samdi terlalu pendek.</string>
+    <string name="inter_agree_privacy_policy">Ketentuan Layanan &amp; Kebijakan Pribadi harus di setujui.</string>
+    <string name="inter_signIn">Masuk</string>
+    <string name="inter_forgot_password">Lupa Kata Sandi</string>
+    <string name="inter_sign_in_with">Masuk dengan</string>
+    <string name="inter_have_no_account_info">Belum punya akun?&#160;</string>
+    <string name="inter_have_no_account_register">Daftar</string>
+    <string name="inter_followers">Pengikut</string>
+    <string name="inter_followings">Diikuti</string>
+    <string name="inter_notification">Notifikasi</string>
+    <string name="inter_resume_play">Lanjutkan Pemutaran</string>
+    <string name="inter_messages">Pesan</string>
+    <string name="inter_activities">Aktifitas</string>
+    <string name="inter_membership">Keanggotaan</string>
+    <string name="inter_preference">Pilihan</string>
+    <string name="inter_referral">Rujukan</string>
+    <string name="inter_themes">Tema</string>
+    <string name="inter_settings">Pengaturan</string>
+    <string name="inter_term_and_policies">Syarat dan Kebijakan</string>
+    <string name="terms_of_services">Syarat dan Kebijakan</string>
+    <string name="inter_log_out">Keluar</string>
+    <string name="inter_quality">Kualitas</string>
+    <string name="inter_queue">Urutan</string>
+    <string name="inter_now_playing">Dimainkan</string>
+    <string name="inter_next_track">Selanjutnya</string>
+    <string name="inter_show_more_cap">Tampilkan Lebih Banyak</string>
+    <string name="inter_live_chat">Obrolan</string>
+    <string name="inter_share">Bagikan</string>
+    <string name="inter_live_visual">Visual Langsung</string>
+    <string name="inter_now_on_air">Siaran Sekarang</string>
+    <string name="inter_type_message">Tulis pesan...</string>
+    <string name="inter_dialog_add_to_library">Tambahkan ke Library</string>
+    <string name="inter_dialog_remove_from_library">Hapus dari Library</string>
+    <string name="inter_dialog_add_to_next">Tambahkan ke Selanjutnya</string>
+    <string name="inter_dialog_add_to_playlist">Tambahkan ke Playlist</string>
+    <string name="inter_dialog_go_to_album">Lihat Album</string>
+    <string name="inter_dialog_edit_music">Edit Music</string>
+    <string name="inter_dialog_go_to_artist">Lihat Artist</string>
+    <string name="inter_dialog_post_to_timeline">Tambahkan ke Beranda</string>
+    <string name="inter_dialog_share">Bagikan</string>
+    <string name="inter_dialog_take_offline">Unduh</string>
+    <string name="inter_dialog_remove_offline">Hapus Lokal Data</string>
+    <string name="inter_dialog_shuffle_play">Putar Acak</string>
+    <string name="inter_dialog_add_to_radio">Tambahkan ke Radio</string>
+    <string name="inter_dialog_remove_from_radio">Hapus dari Radio</string>
+    <string name="inter_dialog_streaming">Dengarkan Siaran</string>
+    <string name="inter_dialog_go_to_radio">Lihat Radio</string>
+    <string name="inter_dialog_create_post_from_feed">Buat postingan baru dari umpan ini</string>
+    <string name="inter_dialog_share_post_to_other_app">Bagikan ke aplikasi lain</string>
+    <string name="inter_dialog_go_to_account">Lihat Pemilik</string>
+    <string name="inter_dialog_show_rundown">Lihat Acara</string>
+    <string name="inter_dialog_leave_private_room">Tinggalkan Private Room</string>
+    <string name="inter_dialog_follow">Ikuti</string>
+    <string name="inter_dialog_unfollow">Berhenti Mengikuti</string>
+    <string name="inter_dialog_go_to_profile">Lihat Profil</string>
+    <string name="inter_setting_title_application">APLIKASI</string>
+    <string name="inter_setting_language">Bahasa</string>
+    <string name="inter_notification_title">Notifikasi</string>
+    <string name="inter_notification_mark_all_as_read">Tandai sudah dibaca semua</string>
+    <string name="inter_notification_following">Mengikuti</string>
+    <string name="inter_notification_follow">Ikuti</string>
+    <string name="inter_notification_comment_your">%1$s mengomentari %2$s kamu</string>
+    <string name="inter_notification_event_follow">sekarang mengikutimu</string>
+    <string name="inter_notification_event_like">menyukai %1$s kamu</string>
+    <string name="inter_activities_title">Aktifitas</string>
+    <string name="inter_activities_take_offline_music">Menyimpan Musik di lokal</string>
+    <string name="inter_activities_remove_offline_music">Hapus Musik dari lokal</string>
+    <string name="inter_activities_playing_music">Memutar Musik</string>
+    <string name="inter_activities_listening_chanel">Mendengarkan Saluran Radio</string>
+    <string name="inter_activities_take_offline_chanel_content">Menyimpan Konten Cenel di lokal</string>
+    <string name="inter_activities_remove_offline_chanel_content">Menghapus Konten Cenel dari lokal</string>
+    <string name="inter_activities_listening_chanel_content">Mendengarkan Konten Cenel</string>
+    <string name="inter_activities_take_offline_podcast">Menyimpan Podcast di lokal</string>
+    <string name="inter_activities_remove_offline_podcast">Menghapus Podcast dari lokal</string>
+    <string name="inter_activities_listening_podcast">Mendengarkan Podcast</string>
+    <string name="inter_activities_take_offline_video">Menyimpan video di lokal</string>
+    <string name="inter_activities_remove_offline_video">Menghapus video dari lokal</string>
+    <string name="inter_activities_watching_video">Melihat Video</string>
+    <string name="inter_activities_download_document">Mengunduh Dokumen</string>
+    <string name="inter_activities_view_document">Melihat Dokumen</string>
+    <string name="inter_activities_open">Buka</string>
+    <string name="inter_user_setting_first_name_label">Nama Depan</string>
+    <string name="inter_user_setting_first_name_hint">nama depan</string>
+    <string name="inter_user_setting_last_name_label">Nama Belakang</string>
+    <string name="inter_user_setting_last_name_hint">nama belakang</string>
+    <string name="inter_user_setting_username_label">Nama Pengguna</string>
+    <string name="inter_user_setting_username_hint">nama pengguna</string>
+    <string name="inter_user_setting_description_label">Keterangan</string>
+    <string name="inter_user_setting_description_hint">keterangan</string>
+    <string name="inter_user_setting_private_information">Informasi Pribadi</string>
+    <string name="inter_user_setting_gender">Jenis Kelamin</string>
+    <string name="inter_user_setting_male">Pria</string>
+    <string name="inter_user_setting_undefined">Undefined</string>
+    <string name="inter_user_setting_female">Wanita</string>
+    <string name="inter_user_setting_birthday">Tanggal Lahir</string>
+    <string name="inter_user_setting_account">Akun</string>
+    <string name="inter_user_setting_change_password">Ubah Kata Sandi</string>
+    <string name="inter_user_setting_other">lainya</string>
+    <string name="inter_user_setting_log_out">Keluar</string>
+    <string name="inter_user_setting_log_out_hint">Anda masuk sebagai %1$s</string>
+    <string name="inter_user_profile_followers">%1$s Pengikut</string>
+    <string name="inter_user_profile_followings">%1$s Mengikuti</string>
+    <string name="inter_user_profile_follow">  Ikuti  </string>
+    <string name="inter_user_profile_unfollow">Berhenti</string>
+    <string name="inter_user_profile_message">Pesan</string>
+    <string name="inter_no_content_yet">Belum Ada Konten!</string>
+    <string name="inter_no_connection">Tidak Ada Jaringan!</string>
+    <string name="inter_some_think_went_wrong">Terjadi Kesalahan!</string>
+    <string name="inter_poor_connection">Masalah Jaringa, Muat Ulang</string>
+    <string name="inter_not_found">Tidak Ditemukan!</string>
+    <string name="inter_no_follower_yet">Belum Ada Pengikut!</string>
+    <string name="inter_no_following_yet">Belum Ada Yang Diikuti!</string>
+    <string name="inter_signup_password">Kata Sandi</string>
+    <string name="inter_your_library">Koleksi Anda</string>
+    <string name="inter_sign_in_phone">Masuk dengan nomor ponselmu</string>
+    <string name="inter_sign_with">Masuk dengan</string>
+    <string name="inter_complete_profile">Lengkapi Data Pribadi</string>
+    <string name="inter_about">Tentang</string>
+    <string name="inter_let_s_go">Lanjut</string>
+    <string name="inter_fragment_user_setting_title">Profil Pengguna</string>
+    <string name="inter_fragment_setting_title">Pengaturan Aplikasi</string>
+    <string name="inter_setting_title_free_user">PENGGUNAAN GRATIS</string>
+    <string name="inter_setting_sub_free_user">Informasi Status</string>
+    <string name="inter_setting_text_free_user">Selalu tampilkan informasi penggunaan gratis saat memutar</string>
+    <string name="inter_setting_title_auto_play">PEMUTAR</string>
+    <string name="inter_setting_sub_auto_play">Pemutar Otomatis</string>
+    <string name="inter_setting_text_auto_play">Memutar otomatis saat aplikasi di buka.</string>
+    <string name="inter_setting_text_about_app">TENTANG APLIKASI</string>
+    <string name="inter_setting_text_version">Versi</string>
+    <string name="inter_setting_text_tos_desc">Semua hal yang perlu Anda ketahui.</string>
+    <string name="inter_setting_text_pp_desc">Penting bagi pengguna dan pengembang.</string>
+    <string name="inter_setting_text_other">LAINYA</string>
+    <string name="inter_setting_text_log_out">Keluar</string>
+    <string name="inter_verify_phone_number">KONFIRMASI NOMOR TELEPHON</string>
+    <string name="inter_verification_code">Kode Verifikasi</string>
+    <string name="inter_verify">Konfirmasi</string>
+    <string name="inter_code_info">Inputkn 6-digit kode yang di kirim ke \n %1$s</string>
+    <string name="inter_resend_code">Kirim Ulang Kode</string>
+    <string name="inter_resend_code_in">Kirim Ulang Dalam: %1$s</string>
+    <string name="inter_phone_code_invalid">Kode Tidak Cocok</string>
+    <string name="inter_change_number">Ganti Nomor</string>
+    <string name="inter_show_video_progress">LIHAT PROGRESS VIDEO</string>
+    <string name="inter_video_progress">Progress Video</string>
+    <string name="inter_video_progress_owner">Pemilik:</string>
+    <string name="inter_video_progress_date">Dibuat:</string>
+    <string name="inter_video_progress_duration">Durasi Video:</string>
+    <string name="inter_video_progress_played">Durasi Ditonton:</string>
+    <string name="inter_video_progress_progress">Pgrogres Kelengkapan:</string>
+    <string name="inter_tutorials">Panduan</string>
+    <string name="inter_report">Laporkan</string>
+    <string name="inter_report_user">Laporkan "%1$s</string>
+    <string name="inter_report_content">Laporkan %1$s</string>
+    <string name="inter_report_comment">Laporkan komentar dari @%1$s</string>
+    <string name="inter_report_question_account">Kenapa kamu melaporkan akun ini?</string>
+    <string name="inter_report_question_content">Kenapa kamu melaporkan konten ini?</string>
+    <string name="inter_report_question_comment">Kenapa kamu melaporkan komen ini?</string>
+    <string name="inter_report_information">Laporan Anda bersifat anonim, kecuali jika Anda melaporkan pelanggaran kekayaan intelektual.</string>
+    <string name="inter_report_feedback_title">Terima kasih telah melaporkan %1$s ini </string>
+    <string name="inter_report_feedback_detail">Umpan balik Anda penting dalam membantu kami menjaga keamanan komunitas Aplikasi.</string>
+    <string name="inter_block">Blokir</string>
+    <string name="inter_unblock">Buka Blokir</string>
+    <string name="inter_block_user">Blokir %1$s</string>
+    <string name="inter_block_information">Mereka tidak akan bisa mengirimi Anda pesan atau menemukan profil dan posting Anda di aplikasi ini. Mereka tidak akan diberi tahu bahwa Anda memblokir mereka.</string>
+    <string name="inter_block_user_info">%1$s memblokir anda.</string>
+    <string name="inter_blocked_user_info">anda memblokir %1$s.</string>
+    <string name="inter_close_app_notification">Silakan tekan tombol kembali lagi untuk menutup.</string>
+    <string name="inter_channel_success_add_to_library">Channel telah ditambahkan ke library!</string>
+    <string name="inter_channel_success_add_to_favorite">Channel telah disubscribe!</string>
+    <string name="inter_channel_failed_add_to_library">Gagal menambahkan channel ke library!</string>
+    <string name="inter_channel_failed_add_to_favorite">Gagal subscribe channel</string>
+    <string name="inter_channel_success_remove_from_library">Channel telah di hapus dari library!</string>
+    <string name="inter_channel_success_remove_from_favorite">Channel telah di unsubscribe!</string>
+    <string name="inter_channel_failed_remove_from_library">Gagal menghapus channel dari library!</string>
+    <string name="inter_channel_failed_remove_from_favorite">Gagal unsubscribe channel</string>
+    <string name="inter_reload">Muat Ulang</string>
+    <string name="inter_no_managed_channels">Tidak dapat menemukan channel yang Anda kelola</string>
+    <string name="inter_phone_login_failed">Gagal masuk menggunakan Nomor Handphone</string>
+    <string name="inter_failed_communicate_to_server">Gagal terhubung ke server. Tolong cek koneksi internet anda!</string>
+    <string name="inter_wrong_username_and_password">Username atau Password anda salah</string>
+    <string name="inter_facebook_login_failed">Gagal masuk menggunakan facebook</string>
+    <string name="inter_google_login_failed">Gagal masuk menggunakan google</string>
+    <string name="inter_request_timeout">Batas waktu tunggu telah habis</string>
+    <string name="inter_first_name_blank">Nama depan tidak boleh kosong</string>
+    <string name="inter_last_name_blank">Nama belakang tidak boleh kosong</string>
+    <string name="inter_description_blank">Keterangan tidak boleh kosong</string>
+    <string name="fragment_usersetting_update_successful">Akun berhasil diupdate</string>
+    <string name="fragment_usersetting_update_failed">Gagal update akun</string>
+    <string name="fragment_usersetting_error_retrieving_account">Gagal memuat akun</string>
+    <string name="fragment_usersetting_profile_picture_update_successful">Foto profil berhasil diupdate</string>
+    <string name="fragment_usersetting_profile_picture_update_failed">Gagal update foto profil</string>
+    <string name="inter_empty_timeline">Masih Kosong nih! Posting Yuk.</string>
+    <string name="inter_slow_connection">Tidak ada koneksi internet</string>
+    <string name="fragment_series_play_all">Mainkan</string>
+    <string name="play_button">Putar</string>
+    <string name="play">Putar</string>
+    <string name="comments">Komentar</string>
+    <string name="reply">Balas</string>
+    <string name="fragment_activities_reply">Balas</string>
+    <string name="dialog_download">Unduh</string>
+    <string name="download">Unduh</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="edit_comment">Ubah Komentar</string>
+    <string name="delete_comment">Hapus Komentar</string>
+    <string name="fragment_comment_add_hint">Ketikkan komentar disini</string>
+    <string name="comment_response_count">%1$d Tanggapan</string>
+    <string name="view_uploader">Lihat Pemilik</string>
+    <string name="show_lyrics">Tampilkan Lirik</string>
+    <string name="radio_page">Halaman Radio</string>
+    <string name="radio_profile">Profil Radio</string>
+    <string name="show_article">Tampilkan Artikel</string>
+    <string name="view_artist">Lihat Artis</string>
+    <string name="view_album">Lihat Album</string>
+    <string name="show_rundown">Tampilkan Rundown</string>
+    <string name="first_index">Antrean Pertama</string>
+    <string name="network_failure">Gagal terhubung ke server</string>
+
+    <!-- Activity Login -->
+    <string name="activity_login_login">Masuk</string>
+    <string name="signIn">Masuk</string>
+    <string name="signUp">Daftar</string>
+    <string name="activity_login_email">Email / Nama Pengguna</string>
+    <string name="activity_login_password">Kata Sandi</string>
+
+    <!--signup-->
+    <string name="signup_firstname">Nama Depan</string>
+    <string name="signup_lastname">Nama Belakang</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_username">Pilih Nama Pengguna</string>
+    <string name="signup_birthday">Tanggal Lahir</string>
+    <string name="signup">Daftar</string>
+
+    <!--Phone Auth-->
+    <string name="fragment_phone_title">Masukkan Nomor Telepon</string>
+    <string name="fragment_phone_login_phone">Nomor Telepon</string>
+    <string name="fragment_phone_next">Selanjutnya</string>
+
+    <!--Phone Auth Verify-->
+    <string name="fragment_phone_verify_title">Masukkan Kode Anda</string>
+    <string name="fragment_phone_code">Kode</string>
+    <string name="fragment_phone_continue">Lanjutkan</string>
+
+    <!-- UserPlaylistFragment -->
+    <string name="fragment_playlist_title">DAFTAR PUTAR</string>
+
+    <!--SingleFeedFragment-->
+    <string name="fragment_single_feed_title">FEED</string>
+
+    <!-- fragment discover -->
+    <string name="fragment_discover_title">DISCOVER</string>
+    <string name="fragment_discover_society">SOCIETY</string>
+    <string name="fragment_discover_music">MUSIK</string>
+    <string name="fragment_discover_album">ALBUM</string>
+    <string name="fragment_discover_playlist">DAFTAR PUTAR</string>
+
+    <!-- fragment hits -->
+    <string name="fragment_hits_title">MUSIK</string>
+    <string name="fragment_hits_new_release">Rilis Terbaru</string>
+    <string name="fragment_hits_album">Album</string>
+    <string name="fragment_hits_song">Lagu</string>
+    <string name="fragment_hits_new_playlist">DAFTAR PUTAR HITS</string>
+    <string name="fragment_hits_featured_ceo_playlist">Daftar Putar CEO Unggulan</string>
+    <string name="fragment_hits_genere">GENRE</string>
+    <string name="your_favorites">Favorit Anda</string>
+
+    <!-- fragment curation-->
+    <string name="fragment_curation_see_all">Lihat lebih banyak</string>
+
+    <!-- fragment radio -->
+    <string name="fragment_radio_title">RADIO</string>
+    <string name="fragment_radio_on_air">ON AIR</string>
+    <string name="fragment_radio_local">LOKAL</string>
+    <string name="fragment_radio_featured_channel">SALURAN UNGGULAN</string>
+    <string name="fragment_radio_strip">-</string>
+
+    <!-- perpustakaan fragmen -->
+    <string name="fragment_library_title">LIBRARY</string>
+    <string name="fragment_library_music">MUSIK</string>
+    <string name="fragment_library_artist">ARTIS</string>
+    <string name="fragment_library_album">ALBUM</string>
+    <string name="fragment_library_genre">GENRE</string>
+    <string name="fragment_library_playlist">DAFTAR PUTAR </string>
+    <string name="fragment_library_radio">RADIO</string>
+    <string name="fragment_library_video">VIDEO</string>
+    <string name="fragment_library_radio_content">KONTEN RADIO</string>
+    <string name="fragment_library_upload">UNGGAH</string>
+    <string name="fragment_library_podcast">PODCAST</string>
+    <string name="fragment_library_series">SERI</string>
+    <string name="fragment_library_program">PROGRAM</string>
+    <string name="fragment_library_search">PENCARIAN</string>
+    <string name="fragment_library_private_doc">Dokumen Kerahasiaan</string>
+    <string name="fragment_library_new_playlist">Buat Baru</string>
+
+    <!-- unggahan fragmen -->
+    <string name="fragment_upload_title">UNGGAH</string>
+    <string name="fragment_upload_uploading">Mengunggah lagu dan album. Harap tunggu.</string>
+    <string name="fragment_upload_choose_song">Pilih Podcast</string>
+    <string name="fragment_upload_change_song">Ganti Podcast</string>
+    <string name="fragment_upload_choose_your_podcast">Pilih Podcast Anda</string>
+    <string name="fragment_upload_choose_picture">Pilih</string>
+    <string name="fragment_upload_title_hint">Ketikkan judul Anda</string>
+    <string name="fragment_upload_caption_hint">Ketik keterangan Anda</string>
+    <string name="fragment_upload_error_image">Gagal Mengunggah Foto</string>
+    <string name="fragment_upload_error_audio">Gagal Mengunggah Audio</string>
+    <string name="fragment_upload_error_upload">Gagal mengeposkan unggahan ini</string>
+    <string name="fragment_upload_success">Unggahan berhasil dibuat</string>
+    <string name="fragment_upload_public">Publik</string>
+    <string name="fragment_upload_private">Pribadi</string>
+    <string name="fragment_upload_share">Bagikan</string>
+    <string name="fragment_upload_facebook">Facebook</string>
+    <string name="fragment_upload_twitter">Twitter</string>
+    <string name="fragment_upload_path">Jalur</string>
+    <string name="fragment_upload_google_plus">Google+</string>
+    <string name="fragment_upload_others">Lainnya</string>
+
+    <!-- fragmen profil pengguna -->
+    <string name="fragment_user_profile_timeline">Garis Waktu</string>
+    <string name="fragment_user_profile_playlist">Daftar Putar</string>
+    <string name="fragment_user_profile_article">Artikel</string>
+    <string name="fragment_user_profile_history">Riwayat</string>
+    <string name="fragment_user_profile_upload">Unggah</string>
+    <string name="fragment_user_profile_document">Dokumen</string>
+    <string name="fragment_user_profile_message">Pesan</string>
+    <string name="fragment_user_profile_follow"> Ikuti </string>
+    <string name="fragment_user_profile_unfollow">Berhenti Mengikuti</string>
+    <string name="fragment_user_profile_setting">Edit Profil</string>
+    <string name="fragment_user_profile_followings">Mengikuti\n%1$s</string>
+    <string name="fragment_user_profile_followers">Pengikut\n%1$s</string>
+    <string name="fragment_user_profile_update_cover_success">Berhasil memperbarui gambar sampul</string>
+    <string name="fragment_user_profile_update_cover_failed">Gagal memperbarui gambar sampul</string>
+    <string name="fragment_user_profile_option_view_cover">Lihat gambar sampul</string>
+    <string name="fragment_user_profile_option_change_cover">Ubah gambar sampul</string>
+    <string name="fragment_user_profile_option_reset_cover">Setel ulang gambar sampul</string>
+    <string name="fragment_user_profile_reset_cover_success">Setel ulang gambar sampul berhasil</string>
+    <string name="fragment_user_profile_reset_cover_failed">Gagal memperbarui gambar sampul</string>
+
+    <!-- profil radio fragmen -->
+    <string name="fragment_radio_profile_on_air">ON AIR</string>
+    <string name="fragment_radio_profile_phone">PHONE</string>
+    <string name="fragment_radio_profile_fax">FAX</string>
+    <string name="fragment_radio_profile_website">SITUS WEB</string>
+    <string name="fragment_radio_profile_youtube">ANDA</string>
+    <string name="fragment_radio_profile_facebook">FACEBOOK</string>
+    <string name="fragment_radio_profile_instagram">INSTAGRAM</string>
+    <string name="fragment_radio_profile_twitter">TWITTER</string>
+    <string name="fragment_radio_profile_shows">MENUNJUKKAN</string>
+    <string name="fragment_radio_profile_featured_host">HOST UNGGULAN</string>
+    <string name="fragment_radio_profile_contents">SEMUA PODCAST</string>
+    <string name="fragment_radio_profile_no_information">Tidak ada informasi yang tersedia</string>
+    <string name="fragment_radio_profile_get_in_touch">HUBUNGI KAMI DI</string>
+
+
+    <!-- fragment social -->
+    <string name="fragment_social_title">SOSIAL</string>
+    <string name="fragment_social_create_new_post">Buat Post Baru</string>
+
+    <!-- social adapter -->
+    <string name="adapter_social_music">Musik</string>
+    <string name="adapter_social_artist">Artis</string>
+    <string name="adapter_social_album">Album</string>
+    <string name="adapter_social_playlist">Daftar Putar</string>
+    <string name="adapter_social_radio">Radio</string>
+    <string name="adapter_social_radio_content">Konten Radio</string>
+    <string name="adapter_social_upload">Unggahan</string>
+
+    <!-- PostFragment -->
+    <string name="fragment_post_title">POST</string>
+    <string name="fragment_post_author"><![CDATA[by <font color="#41ABDE">Text</font>]]></string>
+    <string name="fragment_post_add_song">Tambahkan Konten</string>
+    <string name="fragment_post_caption_hint">Ketik keterangan Anda</string>
+    <string name="fragment_post_public">Publik</string>
+    <string name="fragment_post_follower">Pengikut</string>
+    <string name="fragment_post_private">Pribadi</string>
+    <string name="fragment_post_share">BAGIKAN</string>
+    <string name="fragment_post_facebook">Facebook</string>
+    <string name="fragment_post_twitter">Twitter</string>
+    <string name="fragment_post_path">Path</string>
+    <string name="fragment_post_google_plus">Google+</string>
+    <string name="fragment_post_others">Lainnya</string>
+
+
+    <!-- Activities Fragment -->
+    <string name="fragment_notification_title">AKTIVITAS</string>
+    <string name="fragment_activities_title">NOTIFIKASI</string>
+    <string name="fragment_direct_message">PESAN</string>
+
+    <!-- Fragment Like -->
+    <string name="fragment_likes_title">SUKA</string>
+
+    <!--Fragment NewComment-->
+    <string name="fragment_comment_title">KOMENTAR</string>
+    <string name="fragment_edit_comment_hint">Masukkan komentar baru atau tekan x untuk membatalkan</string>
+
+    <!-- fragment search all result -->
+    <string name="fragment_search_result_title">PENCARIAN</string>
+    <string name="fragment_search_history_title">RIWAYAT</string>
+    <string name="fragment_search_result_music">Lacak</string>
+    <string name="fragment_search_result_artist">Artis</string>
+    <string name="fragment_search_result_playlist">Daftar Putar</string>
+    <string name="fragment_search_result_album">Album</string>
+    <string name="fragment_search_result_radio">Radio</string>
+    <string name="fragment_search_result_account">Akun</string>
+    <string name="fragment_search_result_uploaded">Diunggah</string>
+
+    <!-- fragmen hasil pencarian kategori tunggal -->
+    <string name="fragment_single_category_search_result_music">TRACK</string>
+    <string name="fragment_single_category_search_result_artist">ARTIS</string>
+    <string name="fragment_single_category_search_result_album">ALBUM</string>
+    <string name="fragment_single_category_search_result_radio">RADIO</string>
+    <string name="fragment_single_category_search_result_account">AKUN</string>
+    <string name="fragment_single_category_search_result_uploaded">DIUNGGAH</string>
+
+    <!-- fragment more curation -->
+    <string name="fragment_more_curation_title">Tampilkan lebih detail</string>
+
+    <!-- Model Playlist -->
+    <string name="model_playlist_created_by">Daftar Putar by: %s</string>
+    <string name="model_playlist_tracks_number">Track: %d</string>
+
+    <!-- Fragment Followers -->
+    <string name="fragment_followers_follow">Ikuti</string>
+    <string name="fragment_followers_following">Mengikuti</string>
+    <string name="fragment_followers_followed">Diikuti</string>
+
+    <!-- Grid one line & two line -->
+    <string name="grid_one_line_follow">Ikuti</string>
+    <string name="grid_one_line_unfollow">Berhenti Mengikuti</string>
+    <string name="grid_one_line_view">Lihat</string>
+
+    <!-- Navigation view -->
+    <string name="navigation_menu_activities">Aktivitas</string>
+    <string name="navigation_menu_membership">Keanggotaan</string>
+    <string name="navigation_menu_settings">Pengaturan</string>
+    <string name="navigation_menu_preference">Preferensi</string>
+    <string name="navigation_menu_theme">Tema</string>
+    <string name="navigation_menu_feedback">Umpan Balik Beta</string>
+    <string name="navigation_menu_logout">Keluar</string>
+    <string name="navigation_menu_play">Terakhir Dimainkan</string>
+    <string name="navigation_menu_playall">Mainkan Sekarang</string>
+    <string name="navigation_menu_login">Masuk</string>
+
+    <!-- fragment new playlist -->
+    <string name="fragment_new_playlist_title_hint">Tulis Judul Daftar Putar</string>
+    <string name="fragment_new_playlist_tracks">%1$s track</string>
+    <string name="fragment_new_playlist_add_songs">Tambahkan Musik</string>
+    <string name="fragment_new_playlist_title">DAFTAR PUTAR</string>
+    <string name="fragment_new_playlist_change_picture">Ganti</string>
+    <string name="fragment_new_playlist_success">Sukses menambahkan daftar putar %1$s</string>
+
+    <!--fragment series-->
+    <string name="fragment_new_series_add_podcast">Tambahkan Podcast</string>
+    <string name="fragment_new_series_new_podcast">Podcast Baru</string>
+
+    <!-- fragment new playlist more content -->
+    <string name="fragment_new_playlist_add_songs_title">TAMBAHKAN LAGU</string>
+    <string name="fragment_new_playlist_search">Pencarian</string>
+
+    <!-- fragment edit artist -->
+    <string name="fragment_edit_artist_title">Edit Artis</string>
+
+    <!-- fragment artist -->
+    <string name="fragment_artist_btn_artist">Artis</string>
+    <string name="fragment_artist_top_tracks">Top Tracks</string>
+    <string name="fragment_artist_album">Album</string>
+    <string name="fragment_artist_similar_artist">Artis Serupa</string>
+
+    <!-- fragment artists -->
+    <string name="fragment_artist2_title">ARTIS</string>
+    <string name="fragment_artist2_track">TRACK</string>
+    <string name="fragment_artist2_albums">ALBUM</string>
+    <string name="fragment_artist2_button">PUTAR ACAK</string>
+    <string name="fragment_artist2_similarArtist">ARTIS SERUPA</string>
+
+    <!-- fragment edit music -->
+    <string name="fragment_edit_music_title">Edit Musik</string>
+
+    <!-- fragment edit album -->
+    <string name="fragment_edit_album_title">Edit Album</string>
+
+    <!-- fragment album -->
+    <string name="fragment_album_title">ALBUM</string>
+    <string name="fragment_album_similar_album">ALBUM SERUPA</string>
+
+    <!-- keanggotaan -->
+    <string name="fragment_membership_title">KEANGGOTAAN</string>
+    <string name="fragment_membership_upgrade">Tingkatkan ke Platinum</string>
+    <string name="fragment_membership_upgrade_subtitle">Dan Anda akan mendapatkan manfaat eksklusif ini:</string>
+    <string name="fragment_membership_payment">Sangat mudah, karena kami menerima banyak metode pembayaran!</string>
+    <string name="fragment_membership_payment_phone_voucher">Voucher Telepon</string>
+    <string name="fragment_membership_payment_bank_transfer">Transfer Bank</string>
+    <string name="fragment_membership_payment_credit_card">Kartu Kredit</string>
+    <string name="fragment_membership_btn_upgrade">Tingkatkan ke Platinum</string>
+
+    <!-- adaptor unggahan favorit-->
+    <string name="adapter_favorites_upload_name">%1$s %2$s</string>
+
+    <!--Obrolan Dialog Tindakan-->
+    <string name="dialog_delete_chat">Hapus Pesan</string>
+    <string name="dialog_pinned_chat">Sematkan Pesan</string>
+
+    <!--Dialog Tindakan Pesan yang disematkan-->
+    <string name="dialog_remove_pinned_message">Lepas sematan Pesan</string>
+
+    <!--Dialog Tindakan buat Postingan baru-->
+    <string name="dialog_upload_content">Unggah konten Anda sendiri</string>
+    <string name="dialog_search_from_library">Telusuri dari perpustakaan</string>
+
+    <!--Dialog Tindakan membagikan pos-->
+    <string name="dialog_create_post_from_feed">Buat postingan baru dari feed ini</string>
+    <string name="dialog_share_post_to_other_app">Berbagi ke aplikasi lain</string>
+
+    <!-- Action Dialog Music -->
+    <string name="dialog_add_to_library">Tambahkan ke Library</string>
+    <string name="dialog_remove_from_library">Hapus dari Library</string>
+    <string name="dialog_subscribe">Stay Tune</string>
+    <string name="dialog_unsubscribe">Tune Out</string>
+    <string name="dialog_add_to_next">Tambahkan ke Berikutnya</string>
+    <string name="dialog_add_to_playlist">Tambahkan ke Daftar Putar</string>
+    <string name="dialog_edit_music">Edit Musik</string>
+    <string name="dialog_go_to_album">Buka Album</string>
+    <string name="dialog_go_to_artist">Buka Artis</string>
+    <string name="dialog_go_to_radio">Buka Radio</string>
+    <string name="dialog_post_to_timeline">Post</string>
+    <string name="dialog_share">Bagikan</string>
+    <string name="dialog_go_to_profile">Buka Profil</string>
+    <string name="dialog_go_to_account">Buka Akun User</string>
+    <string name="dialog_follow">Ikuti</string>
+    <string name="dialog_unfollow">Berhenti Mengikuti</string>
+    <string name="dialog_streaming">Putar Streaming</string>
+    <string name="dialog_shuffle_play">Putar Acak</string>
+    <string name="dialog_success_follow_user">mengikuti %1$s %2$s</string>
+    <string name="dialog_success_unfollow_user">berhenti mengikuti %1$s %2$s</string>
+    <string name="dialog_success_leave_private_room">Berhasil meninggalkan private room</string>
+    <string name="dialog_success_favorite">%1$s ditambahkan ke library</string>
+    <string name="dialog_success_remove_favorite">%1$s dihapus dari library</string>
+    <string name="dialog_success_subscribe">%1$s berhasil stay tuned</string>
+    <string name="dialog_success_unsubscribe">%1$s berhasil tune out</string>
+    <string name="dialog_add_to_radio">Tambahkan ke Radio</string>
+    <string name="dialog_remove_from_radio">Hapus dari Radio</string>
+
+    <string name="invalid_location">Konten tidak dapat diputar.</string>
+    <string name="unknown_artist">Artis Tidak Dikenal</string>
+    <string name="unknown_album">Album Tidak Dikenal</string>
+    <string name="unknown_genre">Genre Tidak Dikenal</string>
+    <string name="widget_default_text" translatable="false">Svara mini player</string>
+    <string name="widget_name_w">Svara White Widget</string>
+    <string name="widget_name_b">Svara Dark Widget</string>
+
+    <string name="firstsong">Konten Antrian Pertama</string>
+    <string name="lastsong">Konten Antrian Terakhir</string>
+
+    <!--Setting-->
+    <string name="fragment_setting_title">Pengaturan</string>
+    <string name="setting_title_playback">PEMUTARAN ULANG</string>
+    <string name="setting_sub_crosfade">Crossfade</string>
+    <string name="setting_text_crosfade">Memungkinkan Anda untuk melakukan crossfade antar lagu</string>
+    <string name="setting_sub_show_unplayable_songs">Tampilkan Lagu yang Tidak Dapat Diputar</string>
+    <string name="setting_text_show_unplayable_songs">Tampilkan lagu yang tidak dapat diputar</string>
+    <string name="setting_sub_normalize_volume">Normalisasi Volume</string>
+    <string name="setting_text_normalize_volume">Atur level volume yang sama untuk semua trek</string>
+    <string name="setting_title_devices">PERANGKAT</string>
+    <string name="setting_sub_connect_devices">Hubungkan ke perangkat</string>
+    <string name="setting_text_connect_devices">Dengarkan dan sambungkan svara ke perangkat Anda</string>
+    <string name="setting_title_social">SOSIAL</string>
+    <string name="setting_title_free_user">PENGGUNA GRATIS</string>
+    <string name="setting_sub_free_user">Pop Up</string>
+    <string name="setting_text_free_user">Selalu tampilkan popup saat memutar konten premium (khusus pengguna gratis)</string>
+    <string name="setting_title_auto_play">PEMAIN</string>
+    <string name="setting_sub_auto_play">Putar Otomatis</string>
+    <string name="setting_text_auto_play">Aktifkan putar otomatis saat membuka aplikasi.</string>
+    <string name="setting_sub_private_session">Sesi Pribadi</string>
+    <string name="setting_text_private_session">Pilih Sesi Pribadi jika Anda tidak ingin membagikan apa yang Anda dengarkan. Setiap sesi berlangsung hingga Anda tidak aktif selama 6 jam</string>
+    <string name="setting_title_music_quality">KUALITAS MUSIK</string>
+    <string name="setting_sub_streaming">Streaming</string>
+    <string name="setting_text_streaming">Kualitas yang lebih tinggi menggunakan lebih banyak data.</string>
+    <string name="setting_ops_quality_automatic">Kualitas Otomatis</string>
+    <string name="setting_ops_quality_low">Kualitas Rendah</string>
+    <string name="setting_ops_quality_medium">Kualitas Sedang</string>
+    <string name="setting_ops_quality_hight">Kualitas Tinggi</string>
+    <string name="setting_title_notification">NOTIFIKASI</string>
+    <string name="setting_sub_notification">Pemberitahuan</string>
+    <string name="setting_text_notification">Pilih notifikasi yang akan diterima</string>
+    <string name="setting_text_loggin_as">Anda masuk sebagai</string>
+    <string name="setting_title_layout">LAYOUT</string>
+    <string name="setting_sub_layout">Tata Letak</string>
+    <string name="setting_text_layout">Pilih tata letak utama Anda</string>
+
+    <string name="fragment_usersetting_title">PENGATURAN</string>
+    <string name="fragment_usersetting_userprofile">PROFIL PENGGUNA</string>
+    <string name="fragment_usersetting_user_id">ID Pengguna</string>
+    <string name="fragment_usersetting_first_name">Nama Depan</string>
+    <string name="fragment_usersetting_first_name_hint">Pilih Nama Depan</string>
+    <string name="fragment_usersetting_first_name_update_successful">Nama depan berhasil diperbarui</string>
+    <string name="fragment_usersetting_first_name_update_failed">Gagal memperbarui nama depan</string>
+    <string name="fragment_usersetting_last_name">Nama Belakang</string>
+    <string name="fragment_usersetting_last_name_hint">Pilih Nama Belakang</string>
+    <string name="fragment_usersetting_last_name_update_successful">Nama belakang berhasil diperbarui</string>
+    <string name="fragment_usersetting_last_name_update_failed">Gagal memperbarui nama belakang</string>
+    <string name="fragment_usersetting_status">Status</string>
+    <string name="fragment_usersetting_username">Nama Pengguna</string>
+    <string name="fragment_usersetting_username_hint">Pilih Nama Pengguna</string>
+    <string name="fragment_usersetting_status_update_successful">Status berhasil diperbarui</string>
+    <string name="fragment_usersetting_status_update_failed">Gagal memperbarui status</string>
+    <string name="fragment_usersetting_username_update_successful">Nama pengguna berhasil diperbarui</string>
+    <string name="fragment_usersetting_username_update_failed">Gagal memperbarui nama pengguna</string>
+    <string name="fragment_usersetting_music_genres">Genre Musik</string>
+    <string name="fragment_usersetting_private_information">Informasi Pribadi</string>
+    <string name="fragment_usersetting_email">Email</string>
+    <string name="fragment_usersetting_email_update_successful">Email berhasil diperbarui</string>
+    <string name="fragment_usersetting_email_update_failed">Gagal memperbarui email</string>
+    <string name="fragment_usersetting_birthday_update_successful">Tanggal lahir berhasil diperbarui</string>
+    <string name="fragment_usersetting_birthday_update_failed">Gagal memperbarui tanggal lahir</string>
+    <string name="fragment_usersetting_phone_number">Nomor Telepon</string>
+    <string name="fragment_usersetting_gender">Jenis Kelamin</string>
+    <string name="fragment_usersetting_male">Pria</string>
+    <string name="fragment_usersetting_undefined">Tidak ditentukan</string>
+    <string name="fragment_usersetting_female">Wanita</string>
+    <string name="fragment_usersetting_gender_update_successful">Jenis kelamin berhasil diperbarui</string>
+    <string name="fragment_usersetting_gender_update_failed">Gagal memperbarui jenis kelamin</string>
+    <string name="fragment_usersetting_account">Akun</string>
+    <string name="fragment_usersetting_password">Ubah Kata Sandi</string>
+    <string name="fragment_usersetting_password_update_successful">Kata sandi berhasil diperbarui</string>
+    <string name="fragment_usersetting_password_update_failed">Gagal memperbarui sandi</string>
+    <string name="fragment_usersetting_blocked_user">Pengguna yang Diblokir</string>
+    <string name="fragment_usersetting_blocked_user_hint">Beberapa orang yang membuat Anda sakit</string>
+    <string name="fragment_usersetting_private_account">Akun Pribadi</string>
+    <string name="fragment_usersetting_private_account_hint">Jaga rahasia harta Anda kepada orang lain, hanya orang yang Anda setujui yang dapat melihat musik Anda</string>
+    <string name="fragment_usersetting_linked_account">Akun Tertaut</string>
+    <string name="fragment_usersetting_other">Lainnya</string>
+    <string name="fragment_usersetting_log_out">Keluar</string>
+    <string name="fragment_usersetting_log_out_hint">Anda masuk sebagai %1$s</string>
+
+    <!--notif-->
+    <!-- <string name="on_free_member">Fitur ini terbatas hanya untuk anggota Platinum.</string>-->
+    <!-- <string name="limit_on_premium_up">Fitur ini untuk anggota Premium.</string>-->
+
+    <!--rundown-->
+    <string name="not_active">Tidak ada program yang aktif sekarang.</string>
+
+    <string name="popup_playlist_delete">Apakah Anda yakin menghapus %1$s</string>
+    <string name="snackbar_playlist_delete">Daftar putar akan dihapus dalam %1$s</string>
+
+    <!--pembuat popup dialog-->
+    <string name="popup_post_delete">Anda yakin menghapus postingan ini?</string>
+    <string name="popup_article_delete">Anda yakin menghapus artikel ini?</string>
+    <string name="popup_pinned_message">Anda yakin ingin memasukkan pesan ini?</string>
+    <string name="popup_comment_delete">Apakah Anda yakin menghapus komentar ini?</string>
+    <string name="popup_activities_mark_read">Tandai semua pesan sebagai telah dibaca?</string>
+
+    <!--GCM-->
+    <string name="gcm_send_message">Token diambil dan dikirim ke server! Anda sekarang dapat menggunakan gcmsender untuk
+        kirim pesan hilir ke aplikasi ini.</string>
+    <string name="registering_message">Membuat token InstanceID...</string>
+    <string name="token_error_message">Terjadi kesalahan saat mengambil token InstanceID,
+    mengirim token yang diambil ke server atau berlangganan topik PubSub. Silakan coba menjalankan sampel lagi.</string>
+
+    <!--pembatasan obrolan popup-->
+    <string name="chat_restriction_message">Nikmati obrolan langsung %1$s dan fitur lengkap lainnya secara eksklusif di %2$s</string>
+    <string name="chat_restriction_button_download">Unduh %1$s</string>
+
+    <!--munculan gratis-->
+    <!-- <string name="free_popup_playlist">Saat ini Anda memutar daftar putar ini dalam mode Acak. Hindari batasan apa pun dengan Platinum. Segera Hadir.</string>-->
+    <!-- <string name="free_popup_album">Saat ini Anda sedang memutar album ini dalam mode Acak. Hindari batasan apa pun dengan Platinum. Segera Hadir.</string>-->
+    <!-- <string name="free_popup_artist">Anda sedang memainkan Artis ini dalam mode Acak. hindari batasan apa pun dengan Platinum. Segera Hadir.</string>-->
+    <!-- <string name="free_popup_singgle">Anda sedang memainkan campuran lagu ini. Hindari batasan apa pun dengan Platinum. Segera Hadir.</string>-->
+    <!-- <string name="free_popup_curation">Saat ini Anda sedang memutar daftar pilihan dalam mode Acak. Hindari batasan apa pun dengan Platinum. Segera Hadir.</string>-->
+    <!-- <string name="free_popup_default">Anda sedang bermain dalam mode Acak. Hindari batasan apa pun dengan Platinum. Segera Hadir.</string>-->
+    <string name="free_button_goto_premium">Mengerti</string>
+
+    <string name="force_logout">Sesi login Anda telah kedaluwarsa. \nSilakan masuk lagi.</string>
+
+    <string name="signup_user_sort">Nama pengguna terlalu diurutkan</string>
+
+    <string name="never_show_again">Jangan Tampilkan pesan ini</string>
+    <string name="show_more">Tampilkan Lebih Banyak</string>
+    <string name="edit">Edit</string>
+    <string name="share">Bagikan</string>
+    <string name="follow">Ikuti</string>
+
+    <!-- TODO: Hapus atau ubah teks placeholder ini -->
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+    <string name="close">Tutup</string>
+
+    <string name="failed_connect_server">tidak dapat terhubung dengan server</string>
+    <string name="stay_tune_caps">STAY TUNE</string>
+    <string name="stay_tuned_caps">STAY TUNED</string>
+    <string name="phone">telepon</string>
+    <string name="now">Sekarang</string>
+    <string name="beta">VERSI %1s</string>
+    <string name="patch">Tambal %1s</string>
+    <string name="skip">Lewati</string>
+    <string name="shuffle">acak</string>
+    <string name="cover">sampul</string>
+    <string name="back">kembali</string>
+    <string name="show_more_cap">TAMPILKAN LEBIH BANYAK</string>
+    <string name="update">Perbarui</string>
+    <string name="option">opsi</string>
+    <string name="comment">Komentar</string>
+    <string name="queue">Antrian</string>
+    <string name="now_playing">Sedang Diputar</string>
+    <string name="next_track">Lagu Berikutnya</string>
+    <string name="video">video</string>
+    <string name="open_app">Buka Aplikasi</string>
+    <string name="button">tombol</string>
+    <string name="live_chat">Obrolan Langsung</string>
+    <string name="shows">Pertunjukan</string>
+    <string name="now_on_air">Sekarang Disiarkan</string>
+    <string name="rundown">Rundown</string>
+    <string name="empty_state">Kondisi Kosong</string>
+    <string name="sign_in_with">Masuk dengan</string>
+    <string name="sign_up_with">Daftar dengan</string>
+    <string name="don_t_have_an_account">Belum punya akun?</string>
+    <string name="register">Daftar</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="phone_number">Nomor telepon</string>
+    <string name="sign_up">Daftar</string>
+    <string name="register_name">Nama</string>
+    <string name="register_username">Nama pengguna</string>
+    <string name="about">Tentang</string>
+    <string name="gender">Jenis Kelamin</string>
+    <string name="let_s_go">Ayo Pergi!</string>
+    <string name="forgot_password">Lupa Kata Sandi</string>
+    <string name="clock">jam</string>
+    <string name="cancel_timer">Batalkan Pengatur Waktu</string>
+    <string name="stop_timer">Hentikan Pengatur Waktu</string>
+    <string name="set_timer">Setel Timer</string>
+    <string name="edit_profile">Edit Profil</string>
+    <string name="load_previous_comments">Muat Komentar Sebelumnya</string>
+    <string name="edited">Diedit</string>
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="stay_tune">Stay Tune</string>
+    <string name="radio_podcast">Radio Podcast</string>
+    <string name="user_podcast">Podcast Pengguna</string>
+    <string name="add_category">Tambahkan Kategori</string>
+    <string name="history">sejarah</string>
+
+    <string name="username_formatted">\@%1$s</string>
+    <string name="explicit">Eksplisit</string>
+    <string name="add_your_rss">Tambahkan RSS Anda</string>
+
+
+    <string name="popup_unfollow">Anda yakin berhenti mengikuti %1$s?</string>
+    <string name="submit">Kirim</string>
+    <string name="shuffle_play">Putar Acak</string>
+    <string name="finish">Selesai</string>
+    <string name="start">Mulai</string>
+    <string name="refer">Rujuk</string>
+    <string name="your_referral_code">Kode Referensi Anda</string>
+    <string name="copy">Salin</string>
+    <string name="tap_here_to_enter">Ketuk Di Sini untuk Masuk</string>
+    <string name="enter_invite_code">Masukkan Kode Undangan</string>
+    <string name="redeem">Tukarkan</string>
+    <string name="your_referral_score">Skor Referensi Anda</string>
+    <string name="today">Hari ini</string>
+    <string name="total_score">Total Skor</string>
+    <string name="this_week">Minggu Ini</string>
+    <string name="this_month">Bulan Ini</string>
+    <string name="rewards">Hadiah</string>
+
+    <string name="referral_reward_time">Waktu: %1$d %2$s</string>
+    <string name="referral_reward_count">Referensi: %1$d</string>
+    <string name="day">hari</string>
+    <string name="month">bulan</string>
+    <string name="terms_and_conditions">Syarat dan Ketentuan</string>
+    <string name="apply">terapkan</string>
+
+    <string name="comments_formatted">%1$d Komentar</string>
+    <string name="user_ranking">Peringkat Pengguna</string>
+    <string name="show_s_rank">Tampilkan %1$s peringkat</string>
+    <string name="user_s_rank">Peringkat %1$s pengguna</string>
+    <string name="your_current_s_rank">Peringkat %1$s Anda saat ini</string>
+    <string name="ranking_s">Peringkat %1$s</string>
+    <string name="raise_your_rank_up_and_get_the_prize">Naikkan peringkat Anda dan dapatkan hadiahnya..!</string>
+    <string name="be_the_first_s">Jadilah %1$s pertama</string>
+    <string name="choose_video">pilih video</string>
+    <string name="change_video">ubah video</string>
+    <string name="choose_image_cover">pilih sampul gambar</string>
+    <string name="choose_image_cover_wide">pilih lebar sampul gambar</string>
+    <string name="upload_upper">UPLOAD</string>
+    <string name="live_visual">Visual Langsung</string>
+    <string name="claim">Klaim</string>
+
+    <!--dokumen-->
+    <string name="choose_document">Pilih Dokumen</string>
+    <string name="change_document">Ubah Dokumen</string>
+    <string name="post_to_timeline">Poskan ke Timeline</string>
+
+    <string name="this_room_is_private">Saluran pribadi.\nHanya pengguna yang terdaftar dan berwenang</string>
+    <string name="register_now">DAFTAR SEKARANG</string>
+
+    <string name="agree_privacy_policy">Anda harus menyetujui Persyaratan Layanan &amp; Kebijakan Privasi.</string>
+    <string name="complete_profile">Profil Lengkap</string>
+
+    <string name="copyright">hak cipta</string>
+    <string name="error_loading_artist">Kesalahan saat memuat artis:</string>
+    <string name="failed_to_update_comment">Gagal memperbarui komentar</string>
+    <string name="comment_updated">Komentar Diperbarui</string>
+    <string name="comment_deleted">Komentar Dihapus</string>
+    <string name="failed_to_deleted_comment">Gagal menghapus Komentar</string>
+    <string name="comment_first">Silakan masukkan komentar Anda terlebih dahulu</string>
+    <string name="failed_send_comment">Gagal mengirim komentar</string>
+    <string name="comment_edited">Komentar Diedit</string>
+    <string name="comment_posted">Komentar Diposting</string>
+    <string name="connection_failed">Koneksi gagal</string>
+    <string name="failed_follow_an_user">Gagal mengikuti pengguna</string>
+    <string name="remove_from_library">Hapus dari perpustakaan</string>
+    <string name="added_to"> ditambahkan ke </string>
+    <string name="adding_playlist">Dapatkan respons kesalahan saat menambahkan daftar putar</string>
+    <string name="new_playlist">Daftar Putar Baru</string>
+    <string name="pin">Sematkan</string>
+    <string name="delete_post">Hapus Posting</string>
+    <string name="edit_post">Edit Posting</string>
+    <string name="unpin">Lepas sematan</string>
+    <string name="error">Kesalahan:</string>
+    <string name="playlist_to_radio">Daftar Putar ke Radio</string>
+    <string name="success">Sukses</string>
+    <string name="yes">Ya</string>
+    <string name="failed_leave_private_room">Gagal keluar dari ruang pribadi</string>
+    <string name="no">Tidak</string>
+    <string name="article">Artikel</string>
+    <string name="new_document">Dokumen Baru</string>
+    <string name="edit_document">Ubah Dokumen</string>
+    <string name="uploading_document">Mengunggah dokumen</string>
+    <string name="failed_upload_document">Gagal mengunggah dokumen</string>
+    <string name="uploaded"> Diupload</string>
+    <string name="failed_to_create">Gagal membuat </string>
+    <string name="failed_to_update">Gagal memperbarui </string>
+    <string name="updated"> Diperbarui</string>
+    <string name="open">Buka</string>
+    <string name="deleted"> dihapus</string>
+    <string name="failed_to_deleted"> gagal dihapus</string>
+    <string name="stay_tuned">Stay Tuned</string>
+    <string name="private_room">Ruang Pribadi</string>
+    <string name="failed_to_upload_image">Gagal Mengunggah Gambar</string>
+    <string name="failure_getting_GCM">Gagal mendapatkan token GCM</string>
+    <string name="check_your_internet">Periksa koneksi internet Anda</string>
+    <string name="this_feature_not_available">Fitur ini tidak tersedia di perangkat ini</string>
+    <string name="something_went_wrong">Ada yang tidak beres</string>
+    <string name="package_not_available">Paket tidak tersedia</string>
+    <string name="failed_to_launch_payment">Gagal memuat pembayaran</string>
+    <string name="payment_successful">Pembayaran Berhasil</string>
+    <string name="thank_you">Terima Kasih</string>
+    <string name="already_owned">Sudah Dimiliki</string>
+    <string name="yeay">Yeay!</string>
+    <string name="payment_failed">Pembayaran Gagal</string>
+    <string name="error_validate_server">kesalahan memvalidasi ke server, harap hubungi kami</string>
+    <string name="service_timeout">Waktu Layanan Habis</string>
+    <string name="feature_not_supported">Fitur Tidak Didukung</string>
+    <string name="server_disconnected">Server Terputus</string>
+    <string name="user_canceled">Dibatalkan Pengguna</string>
+    <string name="service_unavailable">Layanan Tidak Tersedia</string>
+    <string name="item_unavailable">Item Tidak Tersedia</string>
+    <string name="something_wrong">Ada Kesalahan: </string>
+    <string name="productid_not_match">Id Produk tidak cocok: </string>
+    <string name="please_contact_developer">. silahkan hubungi pengembang.</string>
+    <string name="mark_as_read">Tandai telah dibaca</string>
+    <string name="offline_data">Data Offline</string>
+    <string name="type_a_message">ketik pesan…</string>
+    <string name="successfully_joined_this_room">berhasil bergabung dengan ruang ini</string>
+    <string name="as_guest"> sebagai tamu.</string>
+    <string name="you">Anda telah</string>
+    <string name="invalid_index">Indeks Tidak Valid</string>
+    <string name="invalid_id">Id Tidak Valid</string>
+    <string name="you_cant_play">Anda tidak dapat memutar Musik ini</string>
+    <string name="cant_find_shared">tidak dapat menemukan konten yang dibagikan</string>
+    <string name="last_index">Urutan Terakhir</string>
+    <string name="choose_item">Pilih Item</string>
+    <string name="message_too_short">Pesan terlalu pendek</string>
+    <string name="sending_message">Mengirim pesan…</string>
+    <string name="message_sent">Pesan terkirim</string>
+    <string name="failed_to_send_message">Gagal mengirim pesan</string>
+    <string name="device_identity_not_found">Identitas perangkat tidak ditemukan</string>
+    <string name="you_are_invited_by">Anda diundang oleh</string>
+    <string name="invalid_code">Kode tidak valid</string>
+    <string name="cant_invite_your_self">Tidak dapat mengundang diri Anda</string>
+    <string name="redeem_code_successfully">Tebus kode dengan sukses</string>
+    <string name="your_podcast">Podcast Anda</string>
+    <string name="series">Seri</string>
+    <string name="no_podcast">Tidak Ada Podcast</string>
+    <string name="series_content">Konten Seri</string>
+    <string name="series_tag">Seri: </string>
+    <string name="image">Gambar: </string>
+    <string name="save">Simpan</string>
+    <string name="app_login_failure">Kegagalan Login Aplikasi</string>
+    <string name="username_already_exists">Nama pengguna sudah terdaftar"</string>
+    <string name="email_already_exists">Email sudah terdaftar</string>
+    <string name="failed_signup">Pendaftaran Gagal!</string>
+    <string name="email_is_empty">Email kosong</string>
+    <string name="email_is_not_valid">Email tidak valid</string>
+    <string name="password_is_empty">Kata sandi kosong</string>
+    <string name="username_is_empty">Nama pengguna kosong</string>
+    <string name="caption_copied">Teks disalin ke papan klip</string>
+    <string name="share_to">Berbagi ke…</string>
+    <string name="have_not_been"> belum dipasang.</string>
+    <string name="no_image">Tidak ada gambar untuk dibagikan</string>
+    <string name="discard">Batalkan</string>
+    <string name="more">Lainnya</string>
+    <string name="post_already_created">Pos sudah dibuat.</string>
+    <string name="failed_to_post_feed">Gagal memposting feed</string>
+    <string name="done">Selesai</string>
+    <string name="no_like">Tidak Suka</string>
+    <string name="one_like">1 Suka</string>
+    <string name="likes"> Suka</string>
+    <string name="no_comment">Tidak Ada Komentar</string>
+    <string name="one_comment">1 Komentar</string>
+    <string name="comments_tag"> Komentar</string>
+    <string name="change_theme">Ubah Tema</string>
+    <string name="upload_video">Unggah Video</string>
+    <string name="title_cant_be_blank">judul tidak boleh kosong</string>
+    <string name="description_cant_be_blank">deskripsi tidak boleh kosong</string>
+    <string name="input_3_or_more">masukkan 3 karakter atau lebih</string>
+    <string name="shared_a_music">berbagi Musik</string>
+    <string name="shared_an_account">berbagi Akun</string>
+    <string name="shared_an_album">berbagi Album</string>
+    <string name="shared_an_artist">berbagi Artis</string>
+    <string name="shared_a_radio">berbagi Radio</string>
+    <string name="shared_a_radio_content">berbagi Konten Radio</string>
+    <string name="shared_a_playlist">berbagi Daftar Putar</string>
+    <string name="shared_an_upload">berbagi Upload</string>
+    <string name="shared_a_video">berbagi Video</string>
+    <string name="this_program_is_for_you">Program ini untuk Anda.. </string>
+    <string name="post">Beranda</string>
+    <string name="share_on">Tambahkan ke</string>
+    <string name="type_your_caption">Ketikkan keterangan anda</string>
+    <string name="popup_add_to_timeline">Apakah Anda yakin ingin memposting konten ini?</string>
+    <string name="popup_cancel_add_to_timeline">Yakin ingin membatalkan posting konten ini?</string>
+    <string name="post_success">Berhasil menambahkan konten ke beranda</string>
+    <string name="inter_user_setting_delete_account">Hapus Akun</string>
+    <string name="inter_user_setting_delete_account_hint">Anda meminta penghapusan akun dalam waktu 30 hari</string>
+    <string name="popup_account_delete">akun ini akan dihapus dalam waktu 30 hari. \nApakah Anda yakin akan menghapus akun ini?</string>
+    <string name="popup_account_delete_success">Apabila anda ingin membatalkan penghapusan akun silahkan login sebelum batas waktu yang ditentukan \n(30 hari)</string>
+    <string name="logout_success">Berhasil logout</string>
+    <string name="warning_delete_account">Peringatan!</string>
+    <string name="warning_delete_account_success">Permintaan penghapusan akun berhasil</string>
+    <string name="privacy">PRIVASI</string>
+    <string name="blocked_contacts">Pengguna yang diblokir</string>
+    <string name="list_blocked_user">Daftar pengguna yang diblokir</string>
+    <string name="no_blocked_user">Tidak ada pengguna yang diblokir</string>
+    <string name="inter_dialog_close_mini_player">Tutup mini player</string>
+    <string name="by">&#160;oleh&#160;</string>
+    <string name="in">&#160;di&#160;</string>
+    <string name="pick_resource">Pilih gambar dari</string>
+    <string name="new_article">Artikel Baru</string>
+    <string name="edit_article">Ubah Artikel</string>
+    <string name="delete_article">Hapus Artikel</string>
+    <string name="pinned_message_radio_profile">Untuk berinteraksi dengan Penyiar atau menyampaikan pesan dan komentar dapat menulis di menu live chat</string>
+    <string name="success_edit_status">Berhasil ganti status!</string>
+    <string name="failure_edit_status">Status gagal diubah!</string>
+    <string name="dialog_switch_account">Apakah anda yakin ingin mengganti tipe akun anda jadi akun %s?</string>
+    <string name="switch_account_success">Berhasil mengganti tipe akun menjadi %s!</string>
+</resources>

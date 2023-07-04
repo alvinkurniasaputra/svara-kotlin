@@ -1,0 +1,156 @@
+{
+  "project_info": {
+    "project_number": "341930179672",
+    "firebase_url": "https://svara-34308.firebaseio.com",
+    "project_id": "svara-34308",
+    "storage_bucket": "svara-34308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341930179672:android:cfc33127c492166e",
+        "android_client_info": {
+          "package_name": "com.zamrud.radio.mobile.app.hearo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FwYEmdfpi0fR7aV8prXviRq3wAXc20U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "341930179672-752q2oduholtlel7hfe9ne07v4dqvon6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zamrud.radio.mobile.app.hearo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341930179672:android:eaffbf3758ca2b96",
+        "android_client_info": {
+          "package_name": "com.zamrud.radio.mobile.app.svara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FwYEmdfpi0fR7aV8prXviRq3wAXc20U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "341930179672-752q2oduholtlel7hfe9ne07v4dqvon6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zamrud.radio.mobile.app.hearo"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7947634504633481~4248643416"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341930179672:android:2587e70f984cf86c",
+        "android_client_info": {
+          "package_name": "com.zamrud.radio.mobile.app.svara_dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FwYEmdfpi0fR7aV8prXviRq3wAXc20U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "341930179672-752q2oduholtlel7hfe9ne07v4dqvon6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zamrud.radio.mobile.app.hearo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341930179672:android:cf64a83bdf3a5210",
+        "android_client_info": {
+          "package_name": "com.zamrud.radio.mobile.app.svaramanage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-FwYEmdfpi0fR7aV8prXviRq3wAXc20U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341930179672-tl3s8hufoqqs66as3kvme7pp0eja180n.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "341930179672-752q2oduholtlel7hfe9ne07v4dqvon6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zamrud.radio.mobile.app.hearo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

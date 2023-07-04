@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+        Set background to transparent. Somewhat seekbar doesnt respect background padding if seekbar background set in here,
+        so set the background for seekbar at xml layout file.
+        -->
+    <item>
+        <!--
+            Transparent color for background
+            -->
+        <color android:color="@color/transparent"/>
+    </item>
+    <item>
+        <clip android:drawable="@drawable/bg_seekbar_mini_gray"/>
+    </item>
+</layer-list>

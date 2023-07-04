@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="playerInShowDuration">200</integer>
+    <integer name="playerOutShowDuration">300</integer>
+    <integer name="liveChatInDuration">200</integer>
+    <integer name="liveChatOutDuration">200</integer>
+    <item name="svaraPageHeaderCollapseAlpha" type="integer" format="float">0.60</item >
+    <item name="svaraPageHeaderExpandAlpha" type="integer" format="float">0.90</item >
+</resources>

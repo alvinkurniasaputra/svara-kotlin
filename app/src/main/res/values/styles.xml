@@ -1,0 +1,471 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_color_primary</item>
+        <item name="colorAccent">@color/light_color_accent</item>
+        <item name="colorSuccess">@color/light_color_success</item>
+        <item name="colorError">@color/light_color_error</item>
+        <item name="colorWarning">@color/light_color_warning</item>
+        <item name="colorInfo">@color/light_color_info</item>
+        <item name="colorToolbarBackground">@color/light_background_toolbar</item>
+        <item name="colorToolbarText">@color/light_text_toolbar</item>
+        <item name="colorToolbarIcon">@color/light_icon_toolbar</item>
+        <item name="colorTabIcon">@color/light_icon_tab</item>
+        <item name="colorStatusBarBackground">@color/light_status_bar_background</item>
+        <item name="colorStatusBarBackgroundInvert">@color/light_status_bar_background_invert</item>
+        <item name="colorText1">@color/light_text_1</item>
+        <item name="colorText2">@color/light_text_2</item>
+        <item name="colorText3">@color/light_text_3</item>
+        <item name="colorText4">@color/light_text_4</item>
+        <item name="colorText5">@color/light_text_5</item>
+        <item name="colorBackgroundSearchPageHeader" format="color">@color/light_search_page_header</item>
+        <item name="colorSearchPageField" format="color">@color/light_search_page_field</item>
+        <item name="colorSearchPageText" format="color">@color/light_search_page_text</item>
+        <item name="colorSearchPageIcon" format="color">@color/light_search_page_icon</item>
+        <item name="colorBackground1">@color/light_background_1</item>
+        <item name="colorBackground2">@color/light_background_2</item>
+        <item name="colorBackground3">@color/light_background_3</item>
+        <item name="colorBackground4">@color/light_background_4</item>
+        <item name="colorBackground5">@color/light_background_5</item>
+        <item name="colorBackgroundMiniPlayer">@color/light_background_mini_player</item>
+        <item name="colorTextMiniPlayer">@color/light_text_mini_player</item>
+        <item name="colorIcon1">@color/light_icon_1</item>
+        <item name="colorIcon2">@color/light_icon_2</item>
+        <item name="colorTabLayoutHome">@color/light_tab_layout_home</item>
+        <item name="colorTextTabLayoutHome">@color/light_tab_layout_home_text</item>
+        <item name="colorRipple">@color/black_10</item>
+        <item name="colorLike">@color/light_like_color</item>
+        <item name="colorTransparent70">@color/light_transparent_70</item>
+        <item name="colorFabText">@color/light_fab_text</item>
+        <item name="colorChannelActionBackground">@color/light_channel_action_background</item>
+        <item name="colorChannelActionIcon">@color/light_channel_action_icon_color</item>
+        <item name="themeSwitch">@style/Theme.Switch.Light</item>
+
+        <item name="fontPath">fonts/FontBody.ttf</item>
+        <item name="toolbarStyle">@style/AppTheme.Toolbar</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppTheme</item>
+        <item name="android:textViewStyle">@style/DefaultTextViewStyle</item>
+        <item name="colorControlNormal">?attr/colorPrimary</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:textAppearanceButton">@style/TextAppearance.AppTheme.Button</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/SearchAutoCompleteTextView</item>
+        <item name="gradientTopDownBlackWhite">@drawable/gradient_white_tranparent_top_down</item>
+        <item name="gradientDownTopBlackWhite">@drawable/gradient_white_tranparent_down_top</item>
+        <item name="gradientDownTopBlackWhiteFullToZero">
+            @drawable/gradient_white_tranparent_down_top_full_zero
+        </item>
+        <item name="gradientCardBg">@drawable/gradient_light_card_bg_col</item>
+        <item name="textInputFloatingLabelStyle">@style/LightTextInputFloatingLabel</item>
+        <item name="backgroundEditTextUnderline">@drawable/background_edit_text_underline_light
+        </item>
+        <item name="backgroundBorderRoundedTransparent">
+            @drawable/background_border_rounded_transparent_light
+        </item>
+        <item name="backgroundRoundedFill">@drawable/background_rounded_fill_light</item>
+        <item name="backgroundPopupRounded">@drawable/background_popup_rounded_light</item>
+        <item name="libraryBadgeColor">@color/light_library_badge_color</item>
+        <item name="libraryBadgeTextColor">@color/light_library_badge_text_color</item>
+        <item name="toolbarLogo">@drawable/toolbar_logo_on_light</item>
+    </style>
+
+    <style name="Light" parent="Base.Theme.AppTheme">
+        <item name="colorPrimary">@color/light_color_primary</item>
+        <item name="colorAccent">@color/light_color_accent</item>
+        <item name="colorToolbarBackground">@color/light_background_toolbar</item>
+        <item name="colorToolbarText">@color/light_text_toolbar</item>
+        <item name="colorToolbarIcon">@color/light_icon_toolbar</item>
+        <item name="colorTabIcon">@color/light_icon_tab</item>
+        <item name="colorStatusBarBackground">@color/light_status_bar_background</item>
+        <item name="colorStatusBarBackgroundInvert">@color/light_status_bar_background_invert</item>
+        <item name="colorText1">@color/light_text_1</item>
+        <item name="colorText2">@color/light_text_2</item>
+        <item name="colorText3">@color/light_text_3</item>
+        <item name="colorText4">@color/light_text_4</item>
+        <item name="colorText5">@color/light_text_5</item>
+        <item name="colorBackgroundSearchPageHeader" format="color">@color/light_search_page_header</item>
+        <item name="colorSearchPageField" format="color">@color/light_search_page_field</item>
+        <item name="colorSearchPageText" format="color">@color/light_search_page_text</item>
+        <item name="colorSearchPageIcon" format="color">@color/light_search_page_icon</item>
+        <item name="colorBackground1">@color/light_background_1</item>
+        <item name="colorBackground2">@color/light_background_2</item>
+        <item name="colorBackground3">@color/light_background_3</item>
+        <item name="colorBackground4">@color/light_background_4</item>
+        <item name="colorBackground5">@color/light_background_5</item>
+        <item name="colorBackgroundMiniPlayer">@color/light_background_mini_player</item>
+        <item name="colorTextMiniPlayer">@color/light_text_mini_player</item>
+        <item name="colorIcon1">@color/light_icon_1</item>
+        <item name="colorIcon2">@color/light_icon_2</item>
+        <item name="colorTabLayoutHome">@color/light_tab_layout_home</item>
+        <item name="colorTextTabLayoutHome">@color/light_tab_layout_home_text</item>
+        <item name="colorRipple">@color/black_25</item>
+        <item name="colorLike">@color/light_like_color</item>
+        <item name="colorTransparent70">@color/light_transparent_70</item>
+        <item name="colorChannelActionBackground">@color/light_channel_action_background</item>
+        <item name="colorChannelActionIcon">@color/light_channel_action_icon_color</item>
+        <item name="libraryBadgeColor">@color/light_library_badge_color</item>
+        <item name="libraryBadgeTextColor">@color/light_library_badge_text_color</item>
+        <item name="colorFabText">@color/light_fab_text</item>
+
+        <item name="gradientTopDownBlackWhite">@drawable/gradient_white_tranparent_top_down</item>
+        <item name="gradientDownTopBlackWhite">@drawable/gradient_white_tranparent_down_top</item>
+        <item name="gradientDownTopBlackWhiteFullToZero">
+            @drawable/gradient_white_tranparent_down_top_full_zero
+        </item>
+        <item name="gradientCardBg">@drawable/gradient_light_card_bg_col</item>
+        <item name="backgroundEditTextUnderline">@drawable/background_edit_text_underline_light
+        </item>
+        <item name="backgroundBorderRoundedTransparent">
+            @drawable/background_border_rounded_transparent_light
+        </item>
+        <item name="backgroundRoundedFill">@drawable/background_rounded_fill_light</item>
+        <item name="backgroundPopupRounded">@drawable/background_popup_rounded_light</item>
+
+        <item name="textInputFloatingLabelStyle">@style/LightTextInputFloatingLabel</item>
+        <item name="themeSwitch">@style/Theme.Switch.Light</item>
+        <item name="toolbarLogo">@drawable/toolbar_logo_on_light</item>
+        <item name="colorBackgroundPage">@drawable/background_page</item>
+    </style>
+
+    <style name="Dark" parent="Base.Theme.AppTheme">
+        <item name="colorPrimary">@color/dark_color_primary</item>
+        <item name="colorAccent">@color/dark_color_accent</item>
+        <item name="colorSuccess">@color/dark_color_success</item>
+        <item name="colorError">@color/dark_color_error</item>
+        <item name="colorWarning">@color/dark_color_warning</item>
+        <item name="colorInfo">@color/dark_color_info</item>
+        <item name="colorToolbarBackground">@color/dark_background_toolbar</item>
+        <item name="colorToolbarText">@color/dark_text_toolbar</item>
+        <item name="colorToolbarIcon">@color/dark_icon_toolbar</item>
+        <item name="colorTabIcon">@color/dark_icon_tab</item>
+        <item name="colorStatusBarBackground">@color/dark_status_bar_background</item>
+        <item name="colorStatusBarBackgroundInvert">@color/dark_status_bar_background_invert</item>
+        <item name="colorText1">@color/dark_text_1</item>
+        <item name="colorText2">@color/dark_text_2</item>
+        <item name="colorText3">@color/dark_text_3</item>
+        <item name="colorText4">@color/dark_text_4</item>
+        <item name="colorText5">@color/dark_text_5</item>
+        <item name="colorBackgroundSearchPageHeader" format="color">@color/dark_search_page_header</item>
+        <item name="colorSearchPageField" format="color">@color/dark_search_page_field</item>
+        <item name="colorSearchPageText" format="color">@color/dark_search_page_text</item>
+        <item name="colorSearchPageIcon" format="color">@color/dark_search_page_icon</item>
+        <item name="colorBackground1">@color/dark_background_1</item>
+        <item name="colorBackground2">@color/dark_background_2</item>
+        <item name="colorBackground3">@color/dark_background_3</item>
+        <item name="colorBackground4">@color/dark_background_4</item>
+        <item name="colorBackground5">@color/dark_background_5</item>
+        <item name="colorBackgroundMiniPlayer">@color/dark_background_mini_player</item>
+        <item name="colorTextMiniPlayer">@color/dark_text_mini_player</item>
+        <item name="colorIcon1">@color/dark_icon_1</item>
+        <item name="colorIcon2">@color/dark_icon_2</item>
+        <item name="colorTabLayoutHome">@color/dark_tab_layout_home</item>
+        <item name="colorTextTabLayoutHome">@color/dark_tab_layout_home_text</item>
+        <item name="colorRipple">@color/white_25</item>
+        <item name="colorLike">@color/dark_like_color</item>
+        <item name="colorTransparent70">@color/dark_transparent_70</item>
+        <item name="colorChannelActionBackground">@color/dark_channel_action_background</item>
+        <item name="colorChannelActionIcon">@color/dark_channel_action_icon_color</item>
+        <item name="libraryBadgeColor">@color/dark_library_badge_color</item>
+        <item name="libraryBadgeTextColor">@color/dark_library_badge_text_color</item>
+        <item name="colorFabText">@color/dark_fab_text</item>
+
+        <item name="gradientTopDownBlackWhite">@drawable/gradient_black_tranparent_top_down</item>
+        <item name="gradientDownTopBlackWhite">@drawable/gradient_black_tranparent_down_top</item>
+        <item name="gradientDownTopBlackWhiteFullToZero">
+            @drawable/gradient_black_tranparent_down_top_full_zero
+        </item>
+        <item name="gradientCardBg">@drawable/gradient_dark_card_bg_col</item>
+
+        <item name="backgroundEditTextUnderline">@drawable/background_edit_text_underline_dark
+        </item>
+        <item name="backgroundBorderRoundedTransparent">
+            @drawable/background_border_rounded_transparent_dark
+        </item>
+        <item name="backgroundRoundedFill">@drawable/background_rounded_fill_dark</item>
+        <item name="backgroundPopupRounded">@drawable/background_popup_rounded_dark</item>
+
+
+        <item name="textInputFloatingLabelStyle">@style/DarkTextInputFloatingLabel</item>
+        <item name="themeSwitch">@style/Theme.Switch.Dark</item>
+        <item name="toolbarLogo">@drawable/toolbar_logo_on_dark</item>
+        <item name="colorBackgroundPage">@drawable/background_page</item>
+    </style>
+
+    <style name="LightTextInputFloatingLabel" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColor">@color/light_text_1</item>
+        <item name="android:textColorHint">@color/light_text_2</item>
+        <item name="colorControlNormal">@color/light_text_3</item>
+        <item name="colorControlActivated">@color/light_text_3</item>
+        <item name="colorControlHighlight">@color/light_text_3</item>
+        <item name="android:colorError" tools:ignore="NewApi">@color/svara_red</item>
+        <item name="android:colorPrimary" tools:ignore="NewApi">@color/light_text_3</item>
+    </style>
+
+    <style name="DarkTextInputFloatingLabel" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColor">@color/dark_text_1</item>
+        <item name="android:textColorHint">@color/dark_text_2</item>
+        <item name="android:colorError" tools:ignore="NewApi">@color/svara_red</item>
+        <item name="colorControlNormal">@color/dark_text_3</item>
+        <item name="colorControlActivated">@color/dark_text_3</item>
+        <item name="colorControlHighlight">@color/dark_text_3</item>
+        <item name="android:colorPrimary" tools:ignore="NewApi">@color/dark_text_3</item>
+    </style>
+
+    <style name="PrepareTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_color_primary</item>
+        <item name="colorAccent">@color/light_color_accent</item>
+        <item name="android:windowBackground">@drawable/background_app</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Base.Theme.AppTheme">
+        <item name="android:windowBackground">@drawable/background_app</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="SearchAutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">?attr/colorText1</item>
+        <item name="android:textColorHint">?attr/colorPrimary</item>
+    </style>
+
+    <style name="DefaultTextViewStyle" parent="android:TextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">?attr/colorToolbarIcon</item>
+    </style>
+
+    <style name="LibraryPodcastTabText" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--   <style name="Base.Theme.AppTheme.Brown" parent="Base.Theme.AppTheme">
+           <item name="colorPrimary">@color/milk_chocolate</item>
+           <item name="android:textColor">@color/white</item>
+           <item name="toolbarStyle">@style/AppTheme.Toolbar.Brown</item>
+       </style>-->
+
+
+    <style name="Base.AppTheme.TabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TextAppearance.AppTheme.TabLayout</item>
+        <item name="tabIndicatorColor">?attr/colorPrimary</item>
+        <item name="tabBackground">@drawable/bg_tablayout_dark_sky_blue</item>
+        <item name="tabSelectedTextColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Base.AppTheme.TabLayout.DuskyBlue" parent="Base.AppTheme.TabLayout">
+        <item name="tabIndicatorColor">?attr/colorPrimary</item>
+        <item name="tabBackground">@drawable/bg_tablayout_dusky_blue</item>
+        <item name="tabTextAppearance">@style/TextAppearance.AppTheme.TabLayout.DuskyBlue</item>
+    </style>
+
+    <style name="Base.AppTheme.TabLayout.Black" parent="Base.AppTheme.TabLayout">
+        <item name="tabIndicatorColor">@color/black</item>
+        <item name="tabBackground">@drawable/bg_tablayout_black</item>
+        <item name="tabTextAppearance">@style/TextAppearance.AppTheme.TabLayout.Black</item>
+    </style>
+
+    <style name="Base.AppTheme.TabLayout.Custom" parent="Base.AppTheme.TabLayout">
+        <item name="tabIndicatorColor">?attr/colorText1</item>
+        <item name="tabBackground">?attr/colorBackground1</item>
+        <item name="tabTextAppearance">@style/TextAppearance.AppTheme.TabLayout.Custom</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">?attr/colorText1</item>
+        <item name="android:textColorHint">?attr/colorText3</item>
+        <item name="android:textColorHighlight">?attr/colorPrimary</item>
+        <item name="android:textColorLink">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.white" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColorHighlight">@color/white</item>
+        <item name="android:textColorLink">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.Small" parent="TextAppearance.AppCompat.Small" />
+
+    <style name="Base.TextAppearance.AppTheme.TabLayout" parent="TextAppearance.Design.Tab">
+        <item name="android:textAllCaps">false</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">?attr/colorToolbarText</item>
+    </style>
+
+    <style name="TabLayout.Tab.Menu" parent="TextAppearance.Design.Tab">
+        <item name="android:textAllCaps">false</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.TabLayout.DuskyBlue" parent="Base.TextAppearance.AppTheme.TabLayout">
+        <item name="android:textColor">?attr/colorToolbarText</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.TabLayout.Black" parent="Base.TextAppearance.AppTheme.TabLayout">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.TabLayout.Custom" parent="Base.TextAppearance.AppTheme.TabLayout">
+        <item name="android:textColor">?attr/colorText1</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">13dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:textColor">?attr/colorText1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="spacing">4</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.Title" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="spacing">50</item>
+        <!--        <item name="fontPath">fonts/FontBold.ttf</item>-->
+    </style>
+
+    <style name="Base.TextAppearance.AppTheme.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Base.AppTheme.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorToolbarBackground</item>
+        <item name="titleTextAppearance">@style/Toolbar.TitleText</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:color">?attr/colorToolbarText</item>
+    </style>
+
+    <!--    <style name="Base.AppTheme.Toolbar.Brown" parent="Base.AppTheme.Toolbar">-->
+    <!--        <item name="android:background">@color/milk_chocolate</item>-->
+    <!--    </style>-->
+
+    <style name="Base.AppTheme.TextApppearance.Caption.White" parent="TextAppearance.AppTheme.Caption">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Base.AppTheme.EdiText.White" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_edittext_white_shadow</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColorHint">@color/black_25</item>
+    </style>
+
+    <style name="Base.AppTheme.EditText.Settings" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/transparent</item>
+    </style>
+
+    <style name="transparentProgesDialog" parent="android:Theme.Holo.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/transparent</item>
+        <item name="android:bottomDark">@color/transparent</item>
+        <item name="android:bottomMedium">@color/transparent</item>
+        <item name="android:centerBright">@color/transparent</item>
+        <item name="android:centerDark">@color/transparent</item>
+        <item name="android:centerMedium">@color/transparent</item>
+        <item name="android:fullBright">@color/transparent</item>
+        <item name="android:fullDark">@color/transparent</item>
+        <item name="android:topBright">@color/transparent</item>
+        <item name="android:topDark">@color/transparent</item>
+    </style>
+
+    <style name="errorAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/svara_red</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Style for all android version -->
+    <style name="Theme.AppTheme" parent="Base.Theme.AppTheme" />
+    <!--<style name="Theme.AppTheme.Brown" parent="Base.Theme.AppTheme.Brown" />-->
+    <style name="AppTheme.Toolbar" parent="Base.AppTheme.Toolbar" />
+
+    <!--    <style name="AppTheme.Toolbar.Brown" parent="Base.AppTheme.Toolbar.Brown" />-->
+
+    <style name="TextAppearance.AppTheme" parent="Base.TextAppearance.AppTheme" />
+
+    <style name="TextAppearance.AppTheme.white" parent="Base.TextAppearance.AppTheme.white" />
+
+    <style name="TextAppearance.AppTheme.Small" parent="Base.TextAppearance.AppTheme.Small" />
+
+    <style name="TextAppearance.AppTheme.TabLayout" parent="Base.TextAppearance.AppTheme.TabLayout" />
+
+    <style name="TextAppearance.AppTheme.TabLayout.DuskyBlue" parent="Base.TextAppearance.AppTheme.TabLayout.DuskyBlue" />
+
+    <style name="TextAppearance.AppTheme.TabLayout.Black" parent="Base.TextAppearance.AppTheme.TabLayout.Black" />
+
+    <style name="TextAppearance.AppTheme.TabLayout.Custom" parent="Base.TextAppearance.AppTheme.TabLayout.Custom" />
+
+    <style name="TextAppearance.AppTheme.Title" parent="Base.TextAppearance.AppTheme.Title" />
+
+    <style name="TextAppearance.AppTheme.OpenSans" parent="Base.TextAppearance.AppTheme.Title">
+        <item name="android:textColor">?attr/colorText5</item>
+        <item name="android:textSize">20sp</item>
+        <item name="spacing">50</item>
+    </style>
+
+    <style name="TextAppearance.AppTheme.Caption" parent="Base.TextAppearance.AppTheme.Caption" />
+
+    <style name="TextApppearance.AppTheme.Caption.White" parent="Base.AppTheme.TextApppearance.Caption.White" />
+
+    <style name="TextAppearance.AppTheme.Button" parent="Base.TextAppearance.AppTheme.Button" />
+
+    <style name="AppTheme.TabLayout" parent="Base.AppTheme.TabLayout" />
+
+    <style name="AppTheme.TabLayout.DuskyBlue" parent="Base.AppTheme.TabLayout.DuskyBlue" />
+
+    <style name="AppTheme.TabLayout.Black" parent="Base.AppTheme.TabLayout.Black" />
+
+    <style name="AppTheme.TabLayout.Custom" parent="Base.AppTheme.TabLayout.Custom" />
+
+    <style name="AppTheme.EditText.White" parent="Base.AppTheme.EdiText.White" />
+
+    <style name="AppTheme.EditText.Settings" parent="Base.AppTheme.EditText.Settings" />
+
+    <style name="Theme.Switch.Light" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/light_color_primary</item>
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/warm_grey_two</item>
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/grey_700</item>
+    </style>
+
+    <style name="Theme.Switch.Dark" parent="Theme.AppCompat.DayNight">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/dark_color_primary</item>
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/white</item>
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/white</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">?attr/colorBackground1</item>
+        <item name="android:textColor">?attr/colorText1</item>
+        <item name="dialogCornerRadius">20dp</item>
+    </style>
+
+</resources>

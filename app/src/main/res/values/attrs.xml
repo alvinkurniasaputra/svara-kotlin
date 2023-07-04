@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LetterSpacingTextView">
+        <attr name="spacing" format="float"/>
+        <attr name="text" format="string"/>
+        <attr name="drawableRight" format="reference"/>
+        <attr name="drawablePadding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="EditTextSetting">
+        <attr name="settingTitle" format="string"/>
+        <attr name="hint" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="EditTextTopLabel">
+        <attr name="label" format="string"/>
+        <attr name="value" format="string"/>
+        <attr name="valueHint" format="string"/>
+        <attr name="android:inputType"/>
+    </declare-styleable>
+
+    <declare-styleable name="ButtonRightIcon">
+        <attr name="icon" format="reference"/>
+        <attr name="titleBold" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+    <!--<declare-styleable name="TintableImageViewCustom">
+        <attr name="tint" format="reference|color"/>
+    </declare-styleable>-->
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer"/>
+    </declare-styleable>
+
+    <attr name="colorToolbarBackground" format="color"/>
+    <attr name="colorSuccess" format="color"/>
+    <attr name="colorWarning" format="color"/>
+    <attr name="colorInfo" format="color"/>
+    <attr name="colorToolbarText" format="color"/>
+    <attr name="colorToolbarIcon" format="color"/>
+    <attr name="colorTabIcon" format="color"/>
+    <attr name="colorStatusBarBackground" format="color"/>
+    <attr name="colorStatusBarBackgroundInvert" format="color"/>
+    <attr name="colorText1" format="color"/>
+    <attr name="colorText2" format="color"/>
+    <attr name="colorText3" format="color"/>
+    <attr name="colorText4" format="color"/>
+    <attr name="colorText5" format="color"/>
+    <attr name="colorBackgroundSearchPageHeader" format="color"/>
+    <attr name="colorSearchPageField" format="color"/>
+    <attr name="colorSearchPageText" format="color"/>
+    <attr name="colorSearchPageIcon" format="color"/>
+    <attr name="colorBackground1" format="color"/>
+    <attr name="colorBackground2" format="color"/>
+    <attr name="colorBackground3" format="color"/>
+    <attr name="colorBackground4" format="color"/>
+    <attr name="colorBackground5" format="color"/>
+    <attr name="colorBackgroundMiniPlayer" format="color"/>
+    <attr name="colorTextMiniPlayer" format="color"/>
+    <attr name="colorIcon1" format="color"/>
+    <attr name="colorIcon2" format="color"/>
+    <attr name="colorTabLayoutHome" format="color"/>
+    <attr name="colorTextTabLayoutHome" format="color"/>
+    <attr name="colorRipple" format="color"/>
+    <attr name="colorLike" format="color"/>
+    <attr name="colorTransparent70" format="color"/>
+    <attr name="colorFabText" format="color"/>
+    <attr name="colorChannelActionBackground" format="color"/>
+    <attr name="colorChannelActionIcon" format="color"/>
+    <attr name="libraryBadgeColor" format="color"/>
+    <attr name="libraryBadgeTextColor" format="color"/>
+    <attr name="gradientTopDownBlackWhite" format="reference"/>
+    <attr name="gradientDownTopBlackWhite" format="reference"/>
+    <attr name="gradientDownTopBlackWhiteFullToZero" format="reference"/>
+    <attr name="gradientCardBg" format="reference"/>
+    <attr name="textInputFloatingLabelStyle" format="reference"/>
+    <attr name="backgroundEditTextUnderline" format="reference"/>
+    <attr name="backgroundBorderRoundedTransparent" format="reference"/>
+    <attr name="backgroundRoundedFill" format="reference"/>
+    <attr name="backgroundPopupRounded" format="reference"/>
+    <attr name="themeSwitch" format="reference"/>
+    <attr name="toolbarLogo" format="reference"/>
+    <attr name="colorBackgroundPage" format="reference"/>
+
+    <attr format="string" name="fontPath"/>
+    <item name="calligraphy_tag_id" type="id"/>
+
+</resources>

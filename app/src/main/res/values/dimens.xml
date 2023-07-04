@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="inter_element_spacing">8dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="status_bar_height_minus">-25dp</dimen>
+    <dimen name="grid_card_thumb_width">160dp</dimen>
+    <dimen name="grid_card_thumb_height">100dp</dimen>
+    <dimen name="player_seekbar">10dp</dimen>
+    <dimen name="player_seekbar_bg">5dp</dimen>
+    <dimen name="mini_player_height">58dp</dimen>
+    <dimen name="loading_seekbar">20dp</dimen>
+    <dimen name="loading_seekbar_bg">20dp</dimen>
+
+    <dimen name="recyclerview_grid_row_width">110dp</dimen>
+    <dimen name="recyclerview_grid_row_width2">180dp</dimen>
+</resources>
