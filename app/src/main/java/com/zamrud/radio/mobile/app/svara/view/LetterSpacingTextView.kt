@@ -6,6 +6,7 @@ import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.ScaleXSpan
 import android.util.AttributeSet
+import android.util.Log
 import android.widget.TextView
 import com.zamrud.radio.mobile.app.svara.R
 
@@ -24,7 +25,7 @@ class LetterSpacingTextView : TextView {
             R.styleable.LetterSpacingTextView,
             0, 0)
         try {
-            setText(a.getString(R.styleable.LetterSpacingTextView_text))
+            setText(a.getString(R.styleable.LetterSpacingTextView_text)?:"")
             setSpacing(a.getFloat(R.styleable.LetterSpacingTextView_spacing, 0.0f))
             setCompoundDrawablesWithIntrinsicBounds(0, 0, a.getResourceId(R.styleable.LetterSpacingTextView_drawableRight, 0), 0)
             compoundDrawablePadding = a.getDimensionPixelSize(R.styleable.LetterSpacingTextView_drawablePadding, 0)
