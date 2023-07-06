@@ -53,7 +53,10 @@
             android:value="@string/facebook_app_id"
             tools:replace="android:value" />
 
-
+        <activity
+            android:name=".introCard.IntroActivity"
+            android:label="Intro"
+            android:theme="@style/SplashTheme" />
         <activity
             android:name=".main.PrepareActivity"
             android:exported="true"
@@ -131,7 +134,6 @@
             -->
 
         </activity>
-
         <activity
             android:name=".main.LoginActivity"
             android:configChanges="orientation"
@@ -142,13 +144,6 @@
             android:configChanges="orientation|screenSize|locale"
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
-
-<!--        <intent-filter>-->
-<!--            <action android:name="android.intent.action.MAIN" />-->
-
-<!--            <category android:name="android.intent.category.LAUNCHER" />-->
-<!--        </intent-filter>-->
-        
     </application>
 
 </manifest>

@@ -1,6 +1,5 @@
 package com.zamrud.radio.mobile.app.svara.main
 
-//import com.zamrud.radio.mobile.app.svara.BuildConfig
 import android.Manifest
 import android.annotation.SuppressLint
 import android.content.Context
@@ -17,8 +16,10 @@ import com.google.android.gms.common.GoogleApiAvailability
 import com.google.android.gms.tasks.Task
 import com.google.firebase.FirebaseApp
 import com.google.firebase.messaging.FirebaseMessaging
+import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
+import com.zamrud.radio.mobile.app.svara.BuildConfig
 import com.zamrud.radio.mobile.app.svara.CustomProject
 import com.zamrud.radio.mobile.app.svara.GCM.MyGcmListenerService
 import com.zamrud.radio.mobile.app.svara.Player.Utils.ActionUtil
@@ -53,6 +54,7 @@ import com.zamrud.radio.mobile.app.svara.helper.Report
 import com.zamrud.radio.mobile.app.svara.helper.adsId.AdsHelper
 import com.zamrud.radio.mobile.app.svara.helper.adsId.AdsHelper.AdsCallback
 import com.zamrud.radio.mobile.app.svara.helper.image.DownloadMenuIconAsync
+import com.zamrud.radio.mobile.app.svara.introCard.IntroActivity
 import com.zamrud.radio.mobile.app.svara.setting.SettingUtil
 import com.zamrud.radio.mobile.app.svara.setting.localization.LanguageHelper
 import pl.tajchert.nammu.Nammu
@@ -156,7 +158,7 @@ class PrepareActivity : AppCompatActivity() {
         val openAppDataBody = OpenAppDataBody(
             AuthenticationUtils.getLoggeInUserId(applicationContext),
             jsonObject,
-            AppVersionFilter("0.25.7", "android"))
+            AppVersionFilter(BuildConfig.VERSION_NAME, "android"))
         ServiceGenerator.createServiceWithAuth(AppService::class.java, applicationContext)
             .getAllDataOpenApp(AuthenticationUtils.getLoggeInAppUserId(applicationContext), openAppDataBody)
             .enqueue(object : ResponseHelper<OpenAppData>() {
@@ -457,9 +459,9 @@ class PrepareActivity : AppCompatActivity() {
     }
 
     fun startIntro(param: AppParam?) {
-        val i: Intent = Intent(this, LoginActivity::class.java)
+        val i = Intent(this, IntroActivity::class.java)
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
-//        i.putExtra("AppParam", Gson().toJson(param))
+        i.putExtra("AppParam", Gson().toJson(param))
         startActivity(i)
         finish()
     }

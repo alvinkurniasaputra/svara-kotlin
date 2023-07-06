@@ -1,8 +1,7 @@
 package com.zamrud.radio.mobile.app.svara.apiclient.model
 
-//import com.zamrud.radio.mobile.app.svara.BuildConfig
+import com.zamrud.radio.mobile.app.svara.BuildConfig
 import com.zamrud.radio.mobile.app.svara.admob.AdTestDevicePerson
-import com.zamrud.radio.mobile.app.svara.apiclient.model.account.LoginResponse
 import com.zamrud.radio.mobile.app.svara.apiclient.model.apps.ChannelActionButton
 
 /**
@@ -416,7 +415,7 @@ class AppSettings : BaseModel() {
         var forceUpdate: Boolean
 
         init {
-            appVersionName = "0.25.7"
+            appVersionName = BuildConfig.VERSION_NAME
             forceUpdate = false
             playStoreUrl = ""
         }

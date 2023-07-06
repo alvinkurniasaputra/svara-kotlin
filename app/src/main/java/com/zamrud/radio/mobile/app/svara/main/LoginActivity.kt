@@ -12,6 +12,7 @@ import android.provider.Settings
 import android.util.Log
 import android.view.View
 import android.view.ViewGroup
+import android.view.Window
 import android.view.WindowManager
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
@@ -35,18 +36,16 @@ import com.google.android.gms.common.api.ApiException
 import com.google.android.gms.tasks.Task
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.*
-import com.google.firebase.auth.PhoneAuthProvider.ForceResendingToken
-import com.google.firebase.auth.PhoneAuthProvider.OnVerificationStateChangedCallbacks
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
+import com.zamrud.radio.mobile.app.svara.BuildConfig
 import com.zamrud.radio.mobile.app.svara.CustomProject
 import com.zamrud.radio.mobile.app.svara.Player.Utils.ActionUtil
 import com.zamrud.radio.mobile.app.svara.Player.Utils.Strings
 import com.zamrud.radio.mobile.app.svara.R
 import com.zamrud.radio.mobile.app.svara.Realm.RealmMenu
 import com.zamrud.radio.mobile.app.svara.apiclient.AuthenticationUtils
-import com.zamrud.radio.mobile.app.svara.apiclient.AuthenticationUtils.LoginOtherCallback
 import com.zamrud.radio.mobile.app.svara.apiclient.BaseCallback
 import com.zamrud.radio.mobile.app.svara.apiclient.ResponseHelper
 import com.zamrud.radio.mobile.app.svara.apiclient.ServiceGenerator
@@ -67,12 +66,10 @@ import com.zamrud.radio.mobile.app.svara.apiclient.services.CurationService
 import com.zamrud.radio.mobile.app.svara.apiclient.services.TypeAccount
 import com.zamrud.radio.mobile.app.svara.dialog.DialogShowFreePopup
 import com.zamrud.radio.mobile.app.svara.helper.image.DownloadMenuIconAsync
-import com.zamrud.radio.mobile.app.svara.helper.image.DownloadMenuIconAsync.DownloadImageListener
 import com.zamrud.radio.mobile.app.svara.login.*
 import com.zamrud.radio.mobile.app.svara.setting.SettingUtil
 import com.zamrud.radio.mobile.app.svara.setting.localization.LanguageHelper
 import pl.tajchert.nammu.Nammu
-import pl.tajchert.nammu.Nammu.askForPermission
 import pl.tajchert.nammu.PermissionCallback
 import retrofit2.Call
 import retrofit2.Callback
@@ -102,7 +99,7 @@ class LoginActivity : AppCompatActivity() {
     }
     private var phoneCodeToLeave = PHONE_CODE_TIME_OUT
     private var phoneVerificationId: String? = null
-    private var phoneResendToken: ForceResendingToken? = null
+    private var phoneResendToken: PhoneAuthProvider.ForceResendingToken? = null
     private var phoneNumber: String? = ""
 
     private var mode = MODE_LOGIN
@@ -242,7 +239,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun makeStatusBarTransparent() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            val window = window
+            val window: Window = window
             window.decorView.systemUiVisibility = (View.SYSTEM_UI_FLAG_IMMERSIVE
                     or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
                     or View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN)
@@ -337,7 +334,7 @@ class LoginActivity : AppCompatActivity() {
             loginResult.accessToken.token,
             loginAppResponse.getAppId(),
             applicationContext,
-            object : LoginOtherCallback {
+            object : AuthenticationUtils.LoginOtherCallback {
                 override fun onSuccess(loginResponse: LoginResponse?) {
                     getUserDetail(null)
                 }
@@ -394,7 +391,7 @@ class LoginActivity : AppCompatActivity() {
             loginResult.idToken,
             loginAppResponse.getAppId(),
             applicationContext,
-            object : LoginOtherCallback {
+            object : AuthenticationUtils.LoginOtherCallback {
                 override fun onSuccess(loginResponse: LoginResponse?) {
                     getUserDetail(null)
                 }
@@ -431,7 +428,7 @@ class LoginActivity : AppCompatActivity() {
             .setPhoneNumber(phone)
             .setTimeout(PHONE_CODE_TIME_OUT, TimeUnit.SECONDS)
             .setActivity(this)
-            .setCallbacks(object : OnVerificationStateChangedCallbacks() {
+            .setCallbacks(object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                 override fun onVerificationCompleted(phoneAuthCredential: PhoneAuthCredential) {
                     if (onCodeCapture != null)
                         onCodeCapture!!.onReceiveCode(phoneAuthCredential.smsCode)
@@ -445,7 +442,7 @@ class LoginActivity : AppCompatActivity() {
                     processDone.error(e.message)
                 }
 
-                override fun onCodeSent(verificationId: String, forceResendingToken: ForceResendingToken) {
+                override fun onCodeSent(verificationId: String, forceResendingToken: PhoneAuthProvider.ForceResendingToken) {
                     phoneVerificationId = verificationId
                     phoneResendToken = forceResendingToken
                     processDone.doneSendNumber()
@@ -507,7 +504,7 @@ class LoginActivity : AppCompatActivity() {
             loginAppResponse.getAccessToken(),
             loginResult.phoneNumber,
             loginAppResponse.getAppId(),
-            object : LoginOtherCallback {
+            object : AuthenticationUtils.LoginOtherCallback {
                 override fun onSuccess(loginResponse: LoginResponse?) {
                     getUserDetail(null)
                 }
@@ -624,7 +621,7 @@ class LoginActivity : AppCompatActivity() {
             startMainActivity()
             return
         }
-        DownloadMenuIconAsync(noIcon, object : DownloadImageListener {
+        DownloadMenuIconAsync(noIcon, object : DownloadMenuIconAsync.DownloadImageListener {
             override fun onComplete() {
                 startMainActivity()
             }
@@ -683,7 +680,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun getLocation(callback: BaseCallback<Void?>) {
-        askForPermission(this, Manifest.permission.ACCESS_FINE_LOCATION, object : PermissionCallback {
+        Nammu.askForPermission(this, Manifest.permission.ACCESS_FINE_LOCATION, object : PermissionCallback {
                 override fun permissionGranted() {
                     AuthenticationUtils.getLocation(this@LoginActivity)
                     AuthenticationUtils.sendLocation(this@LoginActivity, object : Callback<Void> {
@@ -732,7 +729,7 @@ class LoginActivity : AppCompatActivity() {
         val openAppDataBody = OpenAppDataBody(
             AuthenticationUtils.getLoggeInUserId(applicationContext),
             jsonObject,
-            AppVersionFilter("0.25.7", "android"))
+            AppVersionFilter(BuildConfig.VERSION_NAME, "android"))
         ServiceGenerator.createServiceWithAuth(AppService::class.java, applicationContext)
             .getAllDataOpenApp(AuthenticationUtils.getLoggeInAppUserId(applicationContext), openAppDataBody)
             .enqueue(object : ResponseHelper<OpenAppData?>() {
@@ -858,7 +855,7 @@ class LoginActivity : AppCompatActivity() {
             .setPhoneNumber(phoneNumber!!)
             .setTimeout(PHONE_CODE_TIME_OUT, TimeUnit.SECONDS)
             .setActivity(this)
-            .setCallbacks(object : OnVerificationStateChangedCallbacks() {
+            .setCallbacks(object : PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                 override fun onVerificationCompleted(phoneAuthCredential: PhoneAuthCredential) {
                     if (onCodeCapture != null)
                         onCodeCapture!!.onReceiveCode(phoneAuthCredential.smsCode)
@@ -872,7 +869,7 @@ class LoginActivity : AppCompatActivity() {
                     processDone.error(e.message)
                 }
 
-                override fun onCodeSent(verificationId: String, forceResendingToken: ForceResendingToken) {
+                override fun onCodeSent(verificationId: String, forceResendingToken: PhoneAuthProvider.ForceResendingToken) {
                     phoneVerificationId = verificationId
                     phoneResendToken = forceResendingToken
                     processDone.doneSendNumber()

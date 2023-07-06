@@ -1,8 +1,10 @@
 buildscript {
+    ext.android_support = '28.0.0'
+    ext.app_version_name = '0.25.7'
     repositories {
 //        jcenter()
-        google()
-        mavenCentral()
+//        google()
+//        mavenCentral()
     }
     dependencies {
         classpath 'io.realm:realm-gradle-plugin:10.11.1'

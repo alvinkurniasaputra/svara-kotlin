@@ -1,6 +1,6 @@
 package com.zamrud.radio.mobile.app.svara.helper
 
-//import com.zamrud.radio.mobile.app.svara.BuildConfig
+import com.zamrud.radio.mobile.app.svara.BuildConfig
 
 /**
  * Created by solusi247 on 21/06/16.
@@ -15,7 +15,7 @@ class Report {
     @JvmField
     var type = ""
     @JvmField
-    var appVersion: String = "0.25.7"
+    var appVersion: String = BuildConfig.VERSION_NAME
     @JvmField
     var accountId = ""
 

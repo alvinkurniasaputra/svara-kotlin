@@ -20,9 +20,11 @@
 
 package com.zamrud.radio.mobile.app.svara.Player.Utils
 
+import com.zamrud.radio.mobile.app.svara.BuildConfig
+
 import java.text.DecimalFormat
 import java.text.NumberFormat
-import java.util.*
+import java.util.Locale
 import kotlin.math.abs
 import kotlin.math.log10
 import kotlin.math.pow
@@ -124,7 +126,7 @@ class Strings {
         }
 
         fun buildPkgString(string: String): String {
-            return "com.zamrud.radio.mobile.app.svara" + "." + string
+            return BuildConfig.APPLICATION_ID + "." + string
         }
 
         fun secondToTimeFormat(duration: Float): String {

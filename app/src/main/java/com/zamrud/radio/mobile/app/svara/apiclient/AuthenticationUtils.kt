@@ -1,7 +1,5 @@
 package com.zamrud.radio.mobile.app.svara.apiclient
 
-//import com.zamrud.radio.mobile.app.svara.BuildConfig
-
 import android.Manifest
 import android.app.Activity
 import android.content.Context
@@ -19,6 +17,7 @@ import com.google.gson.Gson
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
 import com.google.gson.reflect.TypeToken
+import com.zamrud.radio.mobile.app.svara.BuildConfig
 import com.zamrud.radio.mobile.app.svara.Player.Utils.PlayerUtils
 import com.zamrud.radio.mobile.app.svara.SvaraApplication
 import com.zamrud.radio.mobile.app.svara.apiclient.accessibility.Accessibility
@@ -321,7 +320,7 @@ class AuthenticationUtils {
         fun setInstallation(context: Context?, token: String?, callback: Callback<Instalation>) {
             val installationService: InstallationService = ServiceGenerator.createServiceWithAuth(InstallationService::class.java, context)
             val instalation: Instalation = Instalation.BUILD(context, getLoggeInAppUserId(context), getLoggeInUserId(context), token)
-            instalation.setAppVersion("0.25.7")
+            instalation.setAppVersion(BuildConfig.VERSION_NAME)
             instalation.setPlatform("android")
             instalation.setBrand(Build.BRAND)
             instalation.setDeviceType("android")
