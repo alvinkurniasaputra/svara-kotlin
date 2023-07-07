@@ -114,8 +114,8 @@ class LoginOnlySocialFragment() : Fragment() {
             }
         }
 //         StyleSpan styleSpan = new StyleSpan(Typeface.BOLD);
-        val colorSpanTerm = ForegroundColorSpan(ContextCompat.getColor(requireContext(), R.color.svara_blue))
-        val colorSpanPolicy = ForegroundColorSpan(ContextCompat.getColor(requireContext(), R.color.svara_blue))
+        val colorSpanTerm = ForegroundColorSpan(ContextCompat.getColor(requireContext(), R.color.colorPrimary))
+        val colorSpanPolicy = ForegroundColorSpan(ContextCompat.getColor(requireContext(), R.color.colorPrimary))
 
 //        span.setSpan(new RelativeSizeSpan(1.1f), byCreating.length(), byCreating.length()+term.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         span.setSpan(registerClickTerm, byCreating.length, byCreating.length + term.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)

@@ -71,9 +71,9 @@ class MyGcmListenerService : FirebaseMessagingService() {
 
         val notify: Notify = Notify.build(this)
 
-        notify.setChannelId(channelId)
+        notify.channelId = channelId
         notify.setSmallIcon(R.drawable.notif_icon)
-        notify.setColor(R.color.svara_blue)
+        notify.setColor(R.color.colorPrimary)
 
         notify.setTitle(title ?: getString(R.string.app_name))
         if (body != null)
@@ -121,7 +121,7 @@ class MyGcmListenerService : FirebaseMessagingService() {
 
             val notify: Notify = Notify.build(this)
 
-            notify.setChannelId(channelId)
+            notify.channelId = channelId
             notify.setSmallIcon(R.drawable.notif_icon)
             notify.setColor(R.color.svara_blue)
             notify.setTitle(title)

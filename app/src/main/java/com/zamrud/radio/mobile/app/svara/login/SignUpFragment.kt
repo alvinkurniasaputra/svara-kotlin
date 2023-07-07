@@ -20,14 +20,14 @@ import com.zamrud.radio.mobile.app.svara.R
 import com.zamrud.radio.mobile.app.svara.TextUtils
 //import com.zamrud.radio.mobile.app.svara.WebView.WebviewFragment
 import com.zamrud.radio.mobile.app.svara.apiclient.AuthenticationUtils
-import com.zamrud.radio.mobile.app.svara.apiclient.ServiceGenerator
+//import com.zamrud.radio.mobile.app.svara.apiclient.ServiceGenerator
 import com.zamrud.radio.mobile.app.svara.apiclient.countly.UserActivity
 import com.zamrud.radio.mobile.app.svara.apiclient.exception.HttpRequestException
 import com.zamrud.radio.mobile.app.svara.apiclient.model.account.LoginAppResponse
 import com.zamrud.radio.mobile.app.svara.apiclient.model.account.SignUpRequest
+import com.zamrud.radio.mobile.app.svara.apiclient.model.curation.AppLoginOption
 import com.zamrud.radio.mobile.app.svara.apiclient.model.entity.Account
 import com.zamrud.radio.mobile.app.svara.helper.ThemeHelper
-import com.zamrud.radio.mobile.app.svara.login.TnCDialog.TnCListener
 import com.zamrud.radio.mobile.app.svara.main.LoginActivity
 import com.zamrud.radio.mobile.app.svara.setting.localization.LanguageHelper
 import retrofit2.Call
@@ -119,7 +119,7 @@ class SignUpFragment : Fragment() {
     }
 
     private fun setupLoginOption() {
-        val appLoginOption = AuthenticationUtils.getAppLoginOption(getActivityLogin())
+        val appLoginOption: AppLoginOption = AuthenticationUtils.getAppLoginOption(getActivityLogin())
         if (appLoginOption.isDisableFacebookLogin())
             btnFacebook.visibility = View.GONE
         if (appLoginOption.isDisableGoogleLogin())
@@ -182,7 +182,7 @@ class SignUpFragment : Fragment() {
 
         if (CustomProject.registerShowTnC) {
             fragmentChild.visibility = View.VISIBLE
-            val tnCDialog = TnCDialog(object : TnCListener {
+            val tnCDialog = TnCDialog(object : TnCDialog.TnCListener {
                 override fun onDestroy() {
                     fragmentChild.visibility = View.GONE
                 }
@@ -319,7 +319,7 @@ class SignUpFragment : Fragment() {
             }
         }
         val styleSpan = StyleSpan(Typeface.BOLD)
-        val colorSpan = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorBackground1))
+        val colorSpan = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorPrimary))
 
         span.setSpan(registerClick, info.length, span.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         span.setSpan(RelativeSizeSpan(1.1f), info.length, span.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
@@ -351,8 +351,8 @@ class SignUpFragment : Fragment() {
             }
         }
         //        StyleSpan styleSpan = new StyleSpan(Typeface.BOLD);
-        val colorSpanTerm = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorBackground1))
-        val colorSpanPolicy = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorBackground1))
+        val colorSpanTerm = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorPrimary))
+        val colorSpanPolicy = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorPrimary))
 
 //        span.setSpan(new RelativeSizeSpan(1.1f), byCreating.length(), byCreating.length()+term.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
         span.setSpan(registerClickTerm, byCreating.length, byCreating.length + term.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)

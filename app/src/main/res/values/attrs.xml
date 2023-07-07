@@ -39,6 +39,7 @@
         <attr name="trimLength" format="integer"/>
     </declare-styleable>
 
+    <attr format="color" name="colorPrimary"/>
     <attr name="colorToolbarBackground" format="color"/>
     <attr name="colorSuccess" format="color"/>
     <attr name="colorWarning" format="color"/>

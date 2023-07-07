@@ -158,7 +158,7 @@ class LoginFragment : Fragment() {
             }
         }
         val styleSpan = StyleSpan(Typeface.BOLD)
-        val colorSpan = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorText1))
+        val colorSpan = ForegroundColorSpan(ThemeHelper.getColorAttr(requireContext(), R.attr.colorPrimary))
 
         span.setSpan(registerClick, info.length, span.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)
         span.setSpan(RelativeSizeSpan(1.1f), info.length, span.length, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE)

@@ -20,6 +20,10 @@ android {
 
     def mVersionCode = 137
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
     defaultConfig {
         applicationId "com.zamrud.radio.mobile.app.svara"
         minSdk 21
@@ -33,16 +37,62 @@ android {
 
     }
 
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+            universalApk true
+        }
+    }
+
+//    project.ext.versionCodes = ['armeabi': 1, 'armeabi-v7a': 2, 'arm64-v8a': 3, 'mips': 5, 'mips64': 6, 'x86': 8, 'x86_64': 9]
+//
+//    android.applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            output.versionCodeOverride =
+//                    project.ext.versionCodes.get(output.getFilter(
+//                            com.android.build.OutputFile.ABI), 0) * 10000000 + mVersionCode
+//        }
+//    }
+
+    dexOptions {
+        jumboMode true
+    }
+
+    lintOptions {
+        disable 'MissingTranslation'
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("release.keystore")
+            storePassword "24mrud"
+            keyAlias "suararadio_key"
+            keyPassword "24mrud"
+        }
+    }
+
     buildTypes {
+        debug{
+//            minifyEnabled true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue "string", "app_version_name", "$app_version_name"
+            resValue "string", "countly_app_key", "ecea142b0cc8bf54669755459d380cd1149d0375"
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            resValue "string", "app_version_name", "$app_version_name"
+            resValue "string", "countly_app_key", "e1c280efbe21fa60805233b10c5e3a81d6899d23"
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
+
     kotlinOptions {
         jvmTarget = '1.8'
     }
